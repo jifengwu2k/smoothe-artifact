@@ -1,0 +1,1 @@
+{"cost": 6065.0, "time_limit": 36000, "runtime": 36063.657868385315, "solver": "cplex", "acyclic": true, "input_file": "./dataset/rover/fir_8_tap_7iteration_egraph.json", "status": "Optimal"}

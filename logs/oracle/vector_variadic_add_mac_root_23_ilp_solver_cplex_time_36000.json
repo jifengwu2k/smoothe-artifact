@@ -1,0 +1,1 @@
+{"cost": 3.6140000000000003, "time_limit": 36000, "runtime": 0.27689528465270996, "solver": "cplex", "acyclic": true, "input_file": "./dataset/diospyros/vector_variadic_add_mac_root_23.dot", "status": "Optimal"}

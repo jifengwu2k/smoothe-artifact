@@ -1,0 +1,54 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 22.1.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2022.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Problem '/tmp/e22faae1a0ca4d65aa01642c12dbc618-pulp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+CPLEX> New value for time limit in seconds: 900
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_TimeLimit                               900
+Tried aggregator 2 times.
+MIP Presolve eliminated 25 rows and 20 columns.
+Aggregator did 4 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.03 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.03 ticks)
+Parallel b&c, 32 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  2.0000000000e+00
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.03 ticks  (10.19 ticks/sec)
+
+CPLEX> MILP problem relaxed to LP with fixed integer variables using
+incumbent solution.
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_TimeLimit                               900
+Tried aggregator 1 time.
+LP Presolve eliminated 29 rows and 24 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Dual simplex - Optimal:  Objective =  2.0000000000e+00
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.02 ticks  (22.09 ticks/sec)
+
+CPLEX> Solution written to file '/tmp/e22faae1a0ca4d65aa01642c12dbc618-pulp.sol'.
+CPLEX> Root classes: ['9']
+Status: Optimal
+Solved x values:
+['0.0', '3.0', '4.0', '5.0', '6.0', '7.2', '8.0', '9.0']

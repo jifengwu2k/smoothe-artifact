@@ -1,0 +1,1 @@
+{"cost": 2.4080000000000004, "time_limit": 36000, "runtime": 2.1856634616851807, "solver": "cplex", "acyclic": true, "input_file": "./dataset/diospyros/vector_matrix_multiply_2x2_2x2_root_21.dot", "status": "Optimal"}

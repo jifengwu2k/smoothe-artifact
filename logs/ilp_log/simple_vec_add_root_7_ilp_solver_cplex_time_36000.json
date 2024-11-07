@@ -1,0 +1,1 @@
+{"cost": 1.205, "time_limit": 36000, "runtime": 0.08717918395996094, "solver": "cplex", "acyclic": true, "input_file": "./dataset/diospyros/simple_vec_add_root_7.dot", "status": "Optimal"}

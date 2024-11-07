@@ -1,0 +1,1 @@
+{"cost": 36.0, "time_limit": 900, "runtime": 176.43845438957214, "solver": "cbc", "acyclic": true, "input_file": "./dataset/flexc/db344dbd-fb20-4e9e-badb-076d7a3809bc.json", "status": "Optimal"}

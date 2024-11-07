@@ -1,0 +1,1 @@
+{"cost": 1.0010000017045029, "time_limit": 900, "runtime": 888.822304725647, "solver": "cbc", "acyclic": true, "input_file": "./dataset/diospyros/vector_2d_conv_3x3_3x3_root_168.dot", "status": "Not Solved"}

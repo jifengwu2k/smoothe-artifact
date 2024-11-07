@@ -1,0 +1,1 @@
+{"cost": 1.3090000000000002, "time_limit": 900, "runtime": 0.17308354377746582, "solver": "cbc", "acyclic": true, "input_file": "./dataset/diospyros/vector_mac_just_mul_or_zero_root_14.dot", "status": "Optimal"}

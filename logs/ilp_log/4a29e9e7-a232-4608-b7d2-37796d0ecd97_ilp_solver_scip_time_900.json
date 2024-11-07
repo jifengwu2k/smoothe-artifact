@@ -1,0 +1,1 @@
+{"cost": 36.0, "time_limit": 900, "runtime": 2.0312907695770264, "solver": "scip", "acyclic": true, "input_file": "./dataset/flexc/4a29e9e7-a232-4608-b7d2-37796d0ecd97.json", "status": "OPTIMAL"}

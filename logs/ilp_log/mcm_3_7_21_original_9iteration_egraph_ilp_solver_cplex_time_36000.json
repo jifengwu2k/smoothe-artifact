@@ -1,0 +1,1 @@
+{"cost": 1049.9999999999998, "time_limit": 36000, "runtime": 77.79286193847656, "solver": "cplex", "acyclic": true, "input_file": "./dataset/rover/mcm_3_7_21_original_9iteration_egraph.json", "status": "Optimal"}

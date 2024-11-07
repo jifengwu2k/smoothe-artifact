@@ -1,0 +1,1 @@
+{"cost": 424418.0, "time_limit": 36000, "runtime": 10.080554246902466, "solver": "cplex", "acyclic": true, "input_file": "./dataset/impress/mul1024.dot", "status": "Optimal"}

@@ -1,0 +1,1 @@
+{"cost": 11.19945303958957, "time_limit": 36000, "runtime": 39.81352710723877, "solver": "cplex", "acyclic": true, "input_file": "./dataset/tensat/nasneta.json", "status": "Optimal"}

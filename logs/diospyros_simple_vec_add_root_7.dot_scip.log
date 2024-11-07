@@ -1,0 +1,40 @@
+presolving:
+(round 1, fast)       64 del vars, 155 del conss, 0 add conss, 63 chg bounds, 149 chg sides, 86 chg coeffs, 0 upgd conss, 0 impls, 1 clqs
+(round 2, fast)       66 del vars, 256 del conss, 0 add conss, 63 chg bounds, 157 chg sides, 94 chg coeffs, 0 upgd conss, 0 impls, 47 clqs
+(round 3, fast)       75 del vars, 263 del conss, 0 add conss, 63 chg bounds, 172 chg sides, 109 chg coeffs, 0 upgd conss, 0 impls, 45 clqs
+(round 4, fast)       75 del vars, 264 del conss, 0 add conss, 63 chg bounds, 172 chg sides, 109 chg coeffs, 0 upgd conss, 0 impls, 45 clqs
+(round 5, fast)       75 del vars, 264 del conss, 0 add conss, 72 chg bounds, 172 chg sides, 109 chg coeffs, 0 upgd conss, 0 impls, 45 clqs
+(round 6, fast)       76 del vars, 293 del conss, 0 add conss, 72 chg bounds, 172 chg sides, 109 chg coeffs, 0 upgd conss, 0 impls, 45 clqs
+(round 7, fast)       83 del vars, 308 del conss, 0 add conss, 72 chg bounds, 172 chg sides, 109 chg coeffs, 0 upgd conss, 0 impls, 45 clqs
+(round 8, exhaustive) 83 del vars, 308 del conss, 0 add conss, 72 chg bounds, 172 chg sides, 109 chg coeffs, 49 upgd conss, 0 impls, 45 clqs
+   (0.0s) probing cycle finished: starting next cycle
+(round 9, exhaustive) 88 del vars, 308 del conss, 0 add conss, 72 chg bounds, 172 chg sides, 109 chg coeffs, 49 upgd conss, 0 impls, 26 clqs
+(round 10, fast)       88 del vars, 327 del conss, 0 add conss, 72 chg bounds, 172 chg sides, 109 chg coeffs, 49 upgd conss, 0 impls, 26 clqs
+   (0.0s) probing cycle finished: starting next cycle
+   Deactivated symmetry handling methods, since SCIP was built without symmetry detector (SYM=none).
+presolving (11 rounds: 11 fast, 3 medium, 3 exhaustive):
+ 88 deleted vars, 327 deleted constraints, 0 added constraints, 72 tightened bounds, 0 added holes, 172 changed sides, 109 changed coefficients
+ 0 implications, 26 cliques
+presolved problem has 20 variables (20 bin, 0 int, 0 impl, 0 cont) and 30 constraints
+     26 constraints of type <setppc>
+      4 constraints of type <logicor>
+transformed objective value is always integral (scale: 0.001)
+Presolving Time: 0.00
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+p 0.0s|     1 |     0 |     0 |     - |  clique|   0 |  20 |  30 |  30 |   0 |  0 |   0 |   0 | 5.000000e-03 | 2.305000e+00 |  Large | unknown
+i 0.0s|     1 |     0 |     3 |     - |  oneopt|   0 |  20 |  30 |  30 |   0 |  0 |   6 |   0 | 5.000000e-03 | 2.105000e+00 |  Large | unknown
+  0.0s|     1 |     0 |    19 |     - |  1802k |   0 |  20 |  28 |  30 |   0 |  0 |   6 |   0 | 1.155500e+00 | 2.105000e+00 |  82.17%| unknown
+r 0.0s|     1 |     0 |    19 |     - |rounding|   0 |  20 |  28 |  30 |   0 |  0 |   6 |   0 | 1.155500e+00 | 1.306000e+00 |  13.02%| unknown
+i 0.0s|     1 |     0 |    19 |     - |  oneopt|   0 |  20 |  28 |  30 |   0 |  0 |   6 |   0 | 1.155500e+00 | 1.205000e+00 |   4.28%| unknown
+  0.0s|     1 |     0 |    20 |     - |  1808k |   0 |  20 |  28 |  31 |   1 |  1 |   6 |   0 | 1.205000e+00 | 1.205000e+00 |   0.00%| unknown
+  0.0s|     1 |     0 |    20 |     - |  1808k |   0 |  20 |  28 |  31 |   1 |  1 |   6 |   0 | 1.205000e+00 | 1.205000e+00 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.00
+Solving Nodes      : 1
+Primal Bound       : +1.20500000000000e+00 (4 solutions)
+Dual Bound         : +1.20500000000000e+00
+Gap                : 0.00 %
+Root classes: ['7']
+Status: OPTIMAL

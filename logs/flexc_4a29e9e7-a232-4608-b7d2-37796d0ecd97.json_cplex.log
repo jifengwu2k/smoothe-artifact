@@ -1,0 +1,97 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 22.1.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2022.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Problem '/tmp/37a1bbdd6d874b72aaaa779f6a1fede5-pulp.lp' read.
+Read time = 0.04 sec. (5.29 ticks)
+CPLEX> New value for time limit in seconds: 900
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_TimeLimit                               900
+Tried aggregator 5 times.
+MIP Presolve eliminated 10311 rows and 2379 columns.
+MIP Presolve modified 21264 coefficients.
+Aggregator did 1096 substitutions.
+Reduced MIP has 13018 rows, 5027 columns, and 64582 nonzeros.
+Reduced MIP has 3444 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.12 sec. (195.63 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.01 sec. (5.16 ticks)
+Cover probing fixed 0 vars, tightened 2 bounds.
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 59 rows and 7 columns.
+MIP Presolve modified 250 coefficients.
+Reduced MIP has 12959 rows, 5020 columns, and 64440 nonzeros.
+Reduced MIP has 3443 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.07 sec. (123.89 ticks)
+Probing fixed 90 vars, tightened 0 bounds.
+Probing time = 0.01 sec. (5.67 ticks)
+Cover probing fixed 0 vars, tightened 10 bounds.
+Clique table members: 5457.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 0.05 sec. (34.31 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       26.8290    75                     26.8290      132         
+*     0+    0                        20024.0000       26.8290            99.87%
+      0     0       34.2500    22    20024.0000      Cuts: 30      224   99.83%
+*     0+    0                           37.0000       34.2500             7.43%
+*     0     0      integral     0       36.0000       36.0000      246    0.00%
+Elapsed time = 0.50 sec. (536.49 ticks, tree = 0.01 MB, solutions = 3)
+
+Clique cuts applied:  4
+Zero-half cuts applied:  4
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.50 sec. (537.11 ticks)
+Parallel b&c, 32 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.50 sec. (537.11 ticks)
+
+Solution pool: 3 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  3.6000000000e+01
+Solution time =    0.51 sec.  Iterations = 246  Nodes = 0
+Deterministic time = 537.13 ticks  (1050.47 ticks/sec)
+
+CPLEX> MILP problem relaxed to LP with fixed integer variables using
+incumbent solution.
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_TimeLimit                               900
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 30 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+LP Presolve eliminated 24417 rows and 8494 columns.
+Aggregator did 8 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.01 sec. (18.87 ticks)
+
+Dual simplex solved model.
+
+
+Dual simplex - Optimal:  Objective =  3.6000000000e+01
+Solution time =    0.04 sec.  Iterations = 0 (0)
+Deterministic time = 35.48 ticks  (936.08 ticks/sec)
+
+CPLEX> Solution written to file '/tmp/37a1bbdd6d874b72aaaa779f6a1fede5-pulp.sol'.
+CPLEX> Root classes: ['0', '1', '38', '39', '52', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81']
+Status: Optimal
+Solved x values:
+['0.0', '94.0', '79.0', '76.0', '73.0', '70.0', '67.0', '64.0', '61.0', '58.0', '55.0', '52.0', '46.0', '43.0', '40.0', '37.0', '31.0', '28.0', '25.0', '654.39', '22.0', '273.39', '19.0', '16.0', '13.0', '10.0', '7.0', '4.0', '1.0', '125.6', '125.42', '122.21', '119.21', '98.0', '80.0', '77.0', '74.0', '71.0', '68.0', '65.0', '62.0', '59.0', '56.0', '53.0', '50.34', '44.0', '41.0', '38.0', '35.0', '32.0', '29.0', '26.0', '277.39', '23.0', '20.0', '17.0', '141.39', '14.0', '138.0', '11.0', '8.0', '5.0', '2.0', '99.0', '93.0', '81.0', '78.0', '75.0', '72.0', '69.0', '66.0', '63.0', '60.0', '57.0', '54.0', '51.0', '48.34', '45.0', '42.0', '39.0', '33.0', '30.0', '408.28', '27.0', '24.0', '21.0', '18.0', '142.4', '15.0', '139.4', '12.0', '9.0', '6.0', '3.0']

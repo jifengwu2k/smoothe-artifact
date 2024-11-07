@@ -1,0 +1,1 @@
+{"cost": 7356.0, "time_limit": 900, "runtime": 901.1529717445374, "solver": "scip", "acyclic": true, "input_file": "./dataset/rover/fir_8_tap_5iteration_egraph.json", "status": "FEASIBLE"}

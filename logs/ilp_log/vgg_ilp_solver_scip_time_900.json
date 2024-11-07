@@ -1,0 +1,1 @@
+{"cost": 4.8938930248623365, "time_limit": 900, "runtime": 900.3538460731506, "solver": "scip", "acyclic": true, "input_file": "./dataset/tensat/vgg.json", "status": "FEASIBLE"}

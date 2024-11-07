@@ -1,0 +1,1 @@
+{"cost": 0.7665549967059633, "time_limit": 900, "runtime": 902.1294414997101, "solver": "scip", "acyclic": true, "input_file": "./dataset/tensat/bert.json", "status": "FEASIBLE"}

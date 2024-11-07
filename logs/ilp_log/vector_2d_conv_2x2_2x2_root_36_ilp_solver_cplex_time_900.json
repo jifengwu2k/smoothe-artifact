@@ -1,0 +1,1 @@
+{"cost": 9.309999999999997, "time_limit": 900, "runtime": 27.476155996322632, "solver": "cplex", "acyclic": true, "input_file": "./dataset/diospyros/vector_2d_conv_2x2_2x2_root_36.dot", "status": "Optimal"}

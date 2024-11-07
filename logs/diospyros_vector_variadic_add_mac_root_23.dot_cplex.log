@@ -1,0 +1,100 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 22.1.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2022.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Problem '/tmp/1e87ca2549b047f59bf2866a10633ac6-pulp.lp' read.
+Read time = 0.00 sec. (0.23 ticks)
+CPLEX> New value for time limit in seconds: 900
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_TimeLimit                               900
+Tried aggregator 4 times.
+MIP Presolve eliminated 1643 rows and 342 columns.
+MIP Presolve modified 1823 coefficients.
+Aggregator did 32 substitutions.
+Reduced MIP has 678 rows, 229 columns, and 2044 nonzeros.
+Reduced MIP has 204 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (6.25 ticks)
+Found incumbent of value 65.915000 after 0.01 sec. (6.78 ticks)
+Probing fixed 13 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.50 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 258 rows and 30 columns.
+MIP Presolve modified 168 coefficients.
+Reduced MIP has 420 rows, 199 columns, and 1401 nonzeros.
+Reduced MIP has 190 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.25 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 33 rows and 9 columns.
+Reduced MIP has 387 rows, 190 columns, and 1315 nonzeros.
+Reduced MIP has 190 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.07 ticks)
+Probing time = 0.00 sec. (0.18 ticks)
+Clique table members: 402.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 0.00 sec. (1.42 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           65.8150        0.0130            99.98%
+*     0+    0                            5.9150        0.0130            99.78%
+      0     0        1.9005    54        5.9150        1.9005       80   67.87%
+      0     0        2.6811    60        5.9150       Cuts: 8      194   54.67%
+      0     0        2.8333    54        5.9150      Cuts: 14      262   52.10%
+*     0+    0                            5.7140        2.8333            50.41%
+      0     0        2.9355    53        5.7140       Cuts: 6      321   48.63%
+      0     0        3.1002    71        5.7140       Cuts: 4      375   45.74%
+      0     0        3.1255    66        5.7140   ZeroHalf: 5      402   45.30%
+      0     0        3.1385    63        5.7140   ZeroHalf: 5      420   45.07%
+      0     0        3.1650    58        5.7140   ZeroHalf: 3      453   44.61%
+*     0+    0                            3.6140        3.1650            12.42%
+      0     0        cutoff              3.6140        3.6140      453    0.00%
+Elapsed time = 0.08 sec. (53.25 ticks, tree = 0.01 MB, solutions = 5)
+
+Zero-half cuts applied:  12
+Lift and project cuts applied:  3
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.08 sec. (53.29 ticks)
+Parallel b&c, 32 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.08 sec. (53.29 ticks)
+
+Solution pool: 5 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  3.6140000000e+00
+Solution time =    0.09 sec.  Iterations = 453  Nodes = 0
+Deterministic time = 53.30 ticks  (626.79 ticks/sec)
+
+CPLEX> MILP problem relaxed to LP with fixed integer variables using
+incumbent solution.
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_TimeLimit                               900
+Tried aggregator 1 time.
+LP Presolve eliminated 2353 rows and 603 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.90 ticks)
+
+Dual simplex - Optimal:  Objective =  3.6140000000e+00
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 1.69 ticks  (1692.32 ticks/sec)
+
+CPLEX> Solution written to file '/tmp/1e87ca2549b047f59bf2866a10633ac6-pulp.sol'.
+CPLEX> Root classes: ['23']
+Status: Optimal
+Solved x values:
+['0.0', '1.2', '2.2', '4.2', '5.2', '7.2', '8.2', '12.2', '13.2', '15.2', '16.2', '18.2', '19.2', '23.9', '48.0', '75.16', '77.2', '78.2', '106.7', '141.2', '142.2', '263.2', '264.2']

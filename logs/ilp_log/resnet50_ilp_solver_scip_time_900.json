@@ -1,0 +1,1 @@
+{"cost": 4.385794964760862, "time_limit": 900, "runtime": 900.4050407409668, "solver": "scip", "acyclic": true, "input_file": "./dataset/tensat/resnet50.json", "status": "FEASIBLE"}

@@ -1,0 +1,63 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /work/zhang-x2/users/yc2632/miniconda3/envs/newpt2/lib/python3.9/site-packages/pulp/solverdir/cbc/linux/64/cbc /tmp/1497969a26614432abbafc93307e6d5a-pulp.mps sec 900 timeMode elapsed branch printingOptions all solution /tmp/1497969a26614432abbafc93307e6d5a-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 1752 COLUMNS
+At line 12033 RHS
+At line 13781 BOUNDS
+At line 14197 ENDATA
+Problem MODEL has 1747 rows, 415 columns and 8799 elements
+Coin0008I MODEL read with 0 errors
+seconds was changed from 1e+100 to 900
+Option for timeMode changed from cpu to elapsed
+Continuous objective value is 1.001 - 0.00 seconds
+Cgl0003I 0 fixed, 0 tightened bounds, 461 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 99 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 91 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 82 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 72 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 70 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 69 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 66 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 50 strengthened rows, 0 substitutions
+Cgl0004I processed model has 889 rows, 217 columns (182 integer (182 of which binary)) and 3716 elements
+Cutoff increment increased from 1e-05 to 0.000999
+Cbc0038I Initial state - 8 integers unsatisfied sum - 0.0789152
+Cbc0038I Pass   1: suminf.    0.00000 (0) obj. 1.309 iterations 295
+Cbc0038I Solution found of 1.309
+Cbc0038I Relaxing continuous gives 1.309
+Cbc0038I Before mini branch and bound, 174 integers at bound fixed and 32 continuous
+Cbc0038I Mini branch and bound did not improve solution (0.07 seconds)
+Cbc0038I After 0.07 seconds - Feasibility pump exiting with objective of 1.309 - took 0.01 seconds
+Cbc0012I Integer solution of 1.309 found by feasibility pump after 0 iterations and 0 nodes (0.07 seconds)
+Cbc0038I Full problem 889 rows 217 columns, reduced to 7 rows 6 columns
+Cbc0001I Search completed - best objective 1.309, took 0 iterations and 0 nodes (0.07 seconds)
+Cbc0035I Maximum depth 0, 119 variables fixed on reduced cost
+Cuts at root node changed objective from 1.30898 to 1.30898
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                1.30900000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.07
+Time (Wallclock seconds):       0.08
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.07   (Wallclock seconds):       0.08
+
+Root classes: ['14']
+Status: Optimal
+Solved x values:
+['0.0', '1.2', '2.2', '3.2', '6.2', '7.2', '9.2', '10.2', '11.2', '14.9', '47.2', '48.2', '49.2']

@@ -1,0 +1,87 @@
+Math::Mul16(..) => 459, //lut=2 dsp=1 ws=459
+Math::Mul17(..) => 459, //lut=2 dsp=1 ws=459
+Math::Mul32(..) => 1830, //lut=2 dsp=4 ws=1830
+Math::Mul33(..) => 1830, //lut=2 dsp=4 ws=1830
+Math::Mul64(..) => 4236, //lut=123 dsp=9 ws=4236
+Math::Mul65(..) => 4238, //lut=125 dsp=9 ws=4238
+Math::Mul128(..) => 17556, //lut=1104 dsp=36 ws=17556
+Math::Mul129(..) => 17558, //lut=1106 dsp=36 ws=17558
+Math::Mul256(..) => 55940, //lut=186 dsp=122 ws=55940
+Math::Mul257(..) => 66017, //lut=209 dsp=144 ws=66017
+Math::Mul512(..) => 242169, //lut=416 dsp=529 ws=242169
+
+Math::Mul1024(..) => 962169,
+Math::Mul513(..) => 244338,
+Math::Mul2048(..) => 4062169,
+Math::Mul1025(..) => 900000,
+
+Math::Add16(..) => 16,
+Math::Add32(..) => 32,
+Math::Add48(..) => 48,
+Math::Add64(..) => 64,
+Math::Add96(..) => 96,
+Math::Add128(..) => 128,
+Math::Add192(..) => 337,
+Math::Add256(..) => 449,
+Math::Add384(..) => 676,
+Math::Add512(..) => 905,
+Math::Add768(..) => 1444,
+Math::Add1024(..) => 1873,
+
+Math::Add2048(..) => 3680,
+Math::Add1536(..) => 2730,
+Math::Add4096(..) => 7300,
+Math::Add3072(..) => 5500,
+
+Math::Sub34(..) => 34,
+Math::Sub66(..) => 66,
+Math::Sub130(..) => 130,
+Math::Sub258(..) => 452,
+Math::Sub514(..) => 1252,
+
+Math::Sub1026(..) => 4000,
+Math::Sub2050(..) => 12000,
+
+Math::Dummymul16(..) => 0,
+Math::Dummymul32(..) => 0,
+Math::Dummymul64(..) => 0,
+Math::Dummymul128(..) => 0,
+Math::Dummymul256(..) => 0,
+
+Math::Dummymul512(..) => 0,
+Math::Dummymul1024(..) => 0,
+
+Math::Concat(..) => 0,
+Math::Low(..) => 0,
+Math::High(..) => 0,
+Math::Shl(..) => 0,
+
+Math::And1(..) => 1,
+Math::And16(..) => 8,
+Math::And32(..) => 16,
+Math::And64(..) => 32,
+Math::And128(..) => 64,
+Math::And256(..) => 128,
+
+Math::And512(..) => 256,
+Math::And1024(..) => 512,
+
+Math::Add17(..) => 17,
+Math::Add33(..) => 33,
+Math::Add34(..) => 34,
+Math::Add65(..) => 65,
+Math::Add66(..) => 66,
+Math::Add129(..) => 129,
+Math::Add130(..) => 130,
+Math::Add257(..) => 450,
+Math::Add258(..) => 452,
+Math::Add514(..) => 824,
+
+Math::Add1026(..) => 1680,
+Math::Add513(..) => 822,
+Math::Add1025(..) => 1660,
+Math::Add2050(..) => 3300,
+
+
+Math::Partsel(..) => 0,
+Math::Shr(..) => 0,

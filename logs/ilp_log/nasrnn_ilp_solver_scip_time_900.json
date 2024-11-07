@@ -1,0 +1,1 @@
+{"cost": 1.5901019839911894, "time_limit": 900, "runtime": 906.2773816585541, "solver": "scip", "acyclic": true, "input_file": "./dataset/tensat/nasrnn.json", "status": "FEASIBLE"}

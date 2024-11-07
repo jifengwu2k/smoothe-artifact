@@ -1,0 +1,1 @@
+{"cost": 1819.0, "time_limit": 900, "runtime": 180.87950205802917, "solver": "scip", "acyclic": true, "input_file": "./dataset/rover/box_filter_5iteration_egraph.json", "status": "OPTIMAL"}

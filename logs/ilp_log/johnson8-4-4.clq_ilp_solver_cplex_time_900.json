@@ -1,0 +1,1 @@
+{"cost": -3710.0, "time_limit": 900, "runtime": 0.5778493881225586, "solver": "cplex", "acyclic": true, "input_file": "./dataset/maxsat/johnson8-4-4.clq.json", "status": "Optimal"}

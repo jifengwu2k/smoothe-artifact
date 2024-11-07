@@ -1,0 +1,1 @@
+{"cost": 4696.0, "time_limit": 900, "runtime": 105.03535199165344, "solver": "cplex", "acyclic": true, "input_file": "./dataset/set/retail.json", "status": "Optimal"}

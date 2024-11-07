@@ -1,0 +1,139 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /work/zhang-x2/users/yc2632/miniconda3/envs/newpt2/lib/python3.9/site-packages/pulp/solverdir/cbc/linux/64/cbc /tmp/15c7e5aae4b941a3b04cbf75b01a2d07-pulp.mps sec 900 timeMode elapsed branch printingOptions all solution /tmp/15c7e5aae4b941a3b04cbf75b01a2d07-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 206554 COLUMNS
+At line 863179 RHS
+At line 1069729 BOUNDS
+At line 1167558 ENDATA
+Problem MODEL has 206549 rows, 97828 columns and 521839 elements
+Coin0008I MODEL read with 0 errors
+seconds was changed from 1e+100 to 900
+Option for timeMode changed from cpu to elapsed
+Continuous objective value is 212621 - 15.54 seconds
+Cgl0003I 0 fixed, 0 tightened bounds, 37244 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 29994 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 29012 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 1254 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 3 strengthened rows, 0 substitutions
+Cgl0004I processed model has 192636 rows, 97805 columns (51637 integer (51637 of which binary)) and 577068 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0038I Initial state - 1959 integers unsatisfied sum - 335.875
+Cbc0038I Pass   1: (37.76 seconds) suminf.    0.00000 (0) obj. 740885 iterations 32960
+Cbc0038I Solution found of 740885
+Cbc0038I Relaxing continuous gives 740885
+Cbc0038I Before mini branch and bound, 49673 integers at bound fixed and 45767 continuous
+Cbc0038I Full problem 192636 rows 97805 columns, reduced to 5854 rows 2208 columns
+Cbc0038I Mini branch and bound did not improve solution (38.51 seconds)
+Cbc0038I Round again with cutoff of 692595
+Cbc0038I Reduced cost fixing fixed 1 variables on major pass 2
+Cbc0038I Pass   2: (42.25 seconds) suminf.    6.18369 (23) obj. 692595 iterations 1433
+Cbc0038I Pass   3: (42.42 seconds) suminf.    6.18369 (23) obj. 692595 iterations 14
+Cbc0038I Pass   4: (42.64 seconds) suminf.    4.25258 (20) obj. 692595 iterations 156
+Cbc0038I Pass   5: (42.92 seconds) suminf.    3.82732 (18) obj. 692595 iterations 128
+Cbc0038I Pass   6: (43.68 seconds) suminf.    0.43039 (5) obj. 692595 iterations 1275
+Cbc0038I Pass   7: (44.05 seconds) suminf.    0.00000 (0) obj. 681541 iterations 557
+Cbc0038I Solution found of 681541
+Cbc0038I Relaxing continuous gives 681541
+Cbc0038I Before mini branch and bound, 49668 integers at bound fixed and 45745 continuous
+Cbc0038I Full problem 192636 rows 97805 columns, reduced to 6003 rows 2251 columns
+Cbc0038I Mini branch and bound did not improve solution (45.38 seconds)
+Cbc0038I Round again with cutoff of 596830
+Cbc0038I Reduced cost fixing fixed 1 variables on major pass 3
+Cbc0038I Pass   8: (45.84 seconds) suminf.   17.46347 (45) obj. 596830 iterations 4
+Cbc0038I Pass   9: (46.09 seconds) suminf.   10.09322 (23) obj. 596830 iterations 98
+Cbc0038I Pass  10: (46.45 seconds) suminf.    6.16348 (13) obj. 596830 iterations 354
+Cbc0038I Pass  11: (46.66 seconds) suminf.    5.00974 (13) obj. 596830 iterations 138
+Cbc0038I Pass  12: (46.87 seconds) suminf.    3.26756 (23) obj. 596830 iterations 102
+Cbc0038I Pass  13: (47.10 seconds) suminf.    1.06724 (15) obj. 596830 iterations 137
+Cbc0038I Pass  14: (47.29 seconds) suminf.    1.06724 (15) obj. 596830 iterations 45
+Cbc0038I Pass  15: (48.01 seconds) suminf.    1.32294 (5) obj. 596830 iterations 1169
+Cbc0038I Pass  16: (48.34 seconds) suminf.    0.00000 (0) obj. 562853 iterations 528
+Cbc0038I Solution found of 562853
+Cbc0038I Relaxing continuous gives 562853
+Cbc0038I Before mini branch and bound, 49639 integers at bound fixed and 45715 continuous
+Cbc0038I Full problem 192636 rows 97805 columns, reduced to 6293 rows 2356 columns
+Cbc0038I Mini branch and bound did not improve solution (49.64 seconds)
+Cbc0038I Round again with cutoff of 471394
+Cbc0038I Reduced cost fixing fixed 1 variables on major pass 4
+Cbc0038I Pass  17: (50.32 seconds) suminf.   31.92838 (67) obj. 471394 iterations 11
+Cbc0038I Pass  18: (50.49 seconds) suminf.   27.52515 (58) obj. 471394 iterations 26
+Cbc0038I Pass  19: (50.66 seconds) suminf.   27.52515 (58) obj. 471394 iterations 5
+Cbc0038I Pass  20: (50.82 seconds) suminf.   25.04925 (53) obj. 471394 iterations 10
+Cbc0038I Pass  21: (50.90 seconds) suminf.   25.04925 (53) obj. 471394 iterations 0
+Cbc0038I Pass  22: (50.98 seconds) suminf.   25.04925 (53) obj. 471394 iterations 0
+Cbc0038I Pass  23: (52.13 seconds) suminf.   18.51821 (40) obj. 471394 iterations 2072
+Cbc0038I Pass  24: (52.83 seconds) suminf.   18.51821 (40) obj. 471394 iterations 1550
+Cbc0038I Pass  25: (52.99 seconds) suminf.   18.51821 (40) obj. 471394 iterations 4
+Cbc0038I Pass  26: (53.16 seconds) suminf.   18.51821 (40) obj. 471394 iterations 6
+Cbc0038I Pass  27: (54.25 seconds) suminf.   19.66896 (40) obj. 471394 iterations 2206
+Cbc0038I Pass  28: (54.96 seconds) suminf.   19.56127 (41) obj. 471394 iterations 1435
+Cbc0038I Pass  29: (55.16 seconds) suminf.   19.52025 (41) obj. 471394 iterations 60
+Cbc0038I Pass  30: (55.32 seconds) suminf.   19.52025 (41) obj. 471394 iterations 2
+Cbc0038I Pass  31: (56.34 seconds) suminf.   18.51821 (40) obj. 471394 iterations 1835
+Cbc0038I Pass  32: (57.04 seconds) suminf.   18.51821 (40) obj. 471394 iterations 1645
+Cbc0038I Pass  33: (57.20 seconds) suminf.   18.06255 (39) obj. 471394 iterations 6
+Cbc0038I Pass  34: (57.37 seconds) suminf.   18.06255 (39) obj. 471394 iterations 8
+Cbc0038I Pass  35: (57.55 seconds) suminf.   18.06255 (39) obj. 471394 iterations 3
+Cbc0038I Pass  36: (58.87 seconds) suminf.   19.17540 (39) obj. 471394 iterations 2287
+Cbc0038I Pass  37: (59.66 seconds) suminf.   18.06255 (39) obj. 471394 iterations 1532
+Cbc0038I Pass  38: (59.96 seconds) suminf.   18.06255 (39) obj. 471394 iterations 288
+Cbc0038I Pass  39: (60.04 seconds) suminf.   18.06255 (39) obj. 471394 iterations 0
+Cbc0038I Pass  40: (61.13 seconds) suminf.   18.06255 (39) obj. 471394 iterations 1955
+Cbc0038I Pass  41: (61.93 seconds) suminf.   18.06255 (39) obj. 471394 iterations 1575
+Cbc0038I Pass  42: (62.10 seconds) suminf.   18.06255 (39) obj. 471394 iterations 6
+Cbc0038I Pass  43: (63.39 seconds) suminf.   18.90089 (39) obj. 471394 iterations 2056
+Cbc0038I Pass  44: (63.99 seconds) suminf.   18.90089 (39) obj. 471394 iterations 1215
+Cbc0038I Pass  45: (64.16 seconds) suminf.   18.90089 (39) obj. 471394 iterations 1
+Cbc0038I Pass  46: (65.23 seconds) suminf.   18.47319 (40) obj. 471394 iterations 1895
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 49638 integers at bound fixed and 45720 continuous
+Cbc0038I Full problem 192636 rows 97805 columns, reduced to 6289 rows 2340 columns
+Cbc0038I Mini branch and bound did not improve solution (65.52 seconds)
+Cbc0038I After 65.52 seconds - Feasibility pump exiting with objective of 562853 - took 34.59 seconds
+Cbc0012I Integer solution of 562853 found by feasibility pump after 0 iterations and 0 nodes (65.56 seconds)
+Cbc0038I Full problem 192636 rows 97805 columns, reduced to 6972 rows 3681 columns
+Cbc0031I 295 added rows had average density of 3.0305085
+Cbc0013I At root node, 295 cuts changed objective from 257991.88 to 424418 in 6 passes
+Cbc0014I Cut generator 0 (Probing) - 1917 row cuts average 2.0 elements, 1 column cuts (1 active)  in 2.743 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 569 row cuts average 8.3 elements, 0 column cuts (0 active)  in 1.358 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.220 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.011 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.313 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.151 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 646 row cuts average 6.8 elements, 0 column cuts (0 active)  in 4.054 seconds - new frequency is 1
+Cbc0014I Cut generator 7 (ZeroHalf) - 1 row cuts average 3.0 elements, 0 column cuts (0 active)  in 4.378 seconds - new frequency is -100
+Cbc0010I After 0 nodes, 1 on tree, 562853 best solution, best possible 424418 (90.08 seconds)
+Cbc0038I Full problem 192636 rows 97805 columns, reduced to 2608 rows 1482 columns
+Cbc0012I Integer solution of 424418 found by rounding after 3579 iterations and 54 nodes (268.69 seconds)
+Cbc0001I Search completed - best objective 424418, took 3579 iterations and 54 nodes (268.70 seconds)
+Cbc0032I Strong branching done 754 times (9281 iterations), fathomed 0 nodes and fixed 0 variables
+Cbc0035I Maximum depth 54, 3 variables fixed on reduced cost
+Cuts at root node changed objective from 257992 to 424418
+Probing was tried 61 times and created 1920 cuts of which 0 were active after adding rounds of cuts (4.004 seconds)
+Gomory was tried 61 times and created 569 cuts of which 0 were active after adding rounds of cuts (2.818 seconds)
+Knapsack was tried 6 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.220 seconds)
+Clique was tried 6 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.011 seconds)
+MixedIntegerRounding2 was tried 6 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.313 seconds)
+FlowCover was tried 6 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.151 seconds)
+TwoMirCuts was tried 61 times and created 646 cuts of which 0 were active after adding rounds of cuts (5.307 seconds)
+ZeroHalf was tried 1 times and created 1 cuts of which 0 were active after adding rounds of cuts (4.378 seconds)
+
+Result - Optimal solution found
+
+Objective value:                424418.00000000
+Enumerated nodes:               54
+Total iterations:               3579
+Time (CPU seconds):             260.62
+Time (Wallclock seconds):       274.17
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       260.94   (Wallclock seconds):       274.54
+
+Root classes: {'26'}
+Status: Optimal
+Solved x values:
+['0.0', '6677.0', '1887.0', '121.0', '1621.2', '1742.0', '7790.0', '1234.0', '1863.2', '15096.0', '460.0', '581.0', '1839.0', '7258.0', '73.0', '6121.0', '15193.0', '1452.0', '1694.0', '7742.0', '15048.0', '49.2', '170.0', '6218.0', '6847.0', '6460.0', '1670.1', '7718.2', '533.0', '25.0', '1283.0', '1912.0', '15145.0', '146.0', '6194.0', '15266.0', '20685.0', '1525.0', '6944.0', '1646.0', '509.0', '7815.0', '1.0', '6678.0', '1888.0', '15871.0', '6291.0', '364.0', '1622.2', '485.0', '7791.0', '1864.0', '6775.0', '15218.0', '340.1', '461.0', '582.0', '15073.0', '6122.0', '6751.0', '15194.0', '1453.0', '1695.0', '7743.0', '558.0', '6606.0', '50.0', '20589.0', '6848.0', '413.2', '1671.0', '7719.2', '26.2', '1913.0', '15146.0', '15267.0', '6945.0', '1647.0', '7816.0', '6679.0', '1889.0', '15122.0', '123.0', '15243.0', '15872.0', '1623.0', '7792.0', '1865.0', '6147.0', '6776.0', '15219.0', '341.0', '970.0', '1599.2', '462.0', '1091.0', '15074.0', '6244.0', '1454.0', '317.0', '1696.0', '7744.0', '6607.0', '15171.0', '20590.0', '6849.0', '293.0', '414.2', '1672.0', '7720.0', '27.0', '1914.0', '148.0', '6825.0', '15268.0', '1648.0', '1769.0', '7817.0', '3.0', '6680.0', '1890.0', '15123.0', '124.0', '6172.0', '15244.0', '15873.2', '487.0', '1745.0', '7793.0', '1866.0', '6148.0', '1479.0', '342.0', '971.0', '1600.2', '463.0', '1092.0', '6632.0', '197.2', '6245.0', '1455.0', '1697.0', '7745.0', '52.0', '1310.0', '6729.0', '15172.0', '20591.0', '173.0', '6850.0', '294.1', '415.0', '1673.0', '536.0', '28.0', '6705.0', '1915.0', '15269.0', '391.0', '1649.0', '512.0', '7818.0', '4.0', '1891.0', '15124.0', '6173.0', '6802.0', '15245.0', '15874.0', '6415.0', '488.0', '1117.0', '1746.0', '7794.0', '6657.0', '1867.0', '343.0', '972.0', '1601.0', '464.0', '6512.0', '7770.0', '6633.0', '198.2', '6246.0', '319.0', '1698.0', '7746.0', '1311.0', '15173.0', '20592.0', '295.0', '1674.0', '7722.0', '6706.0', '1916.0', '1408.0', '6319.0', '392.0', '6440.0', '1650.0', '1142.0', '7819.0', '5.0', '6682.0', '1892.0', '126.0', '6174.0', '6803.0', '15246.0', '15875.0', '1118.0', '1868.0', '344.0', '465.0', '6513.0', '7771.0', '6634.0', '199.0', '1457.0', '15319.0', '1312.0', '20593.0', '296.0', '417.0', '1675.0', '7723.0', '1167.0', '30.0', '6707.0', '1917.0', '151.0', '1409.0', '6441.0', '1772.0', '6683.0', '1893.0', '15126.0', '6804.0', '15247.0', '15876.0', '22553.0', '1240.0', '1869.0', '345.0', '1603.0', '466.0', '6514.0', '1724.0', '6635.0', '6248.0', '1458.0', '1579.0', '7748.0', '55.0', '1313.0', '15175.0', '20594.0', '6853.0', '297.0', '1555.0', '418.0', '7724.1', '6708.0', '1918.0', '781.0', '1410.0', '6442.0', '1652.0', '1773.0', '7.0', '6684.0', '1894.0', '15127.0', '128.0', '6176.0', '6805.0', '15248.0', '15877.0', '6418.0', '7047.0', '1749.0', '1241.0', '1870.0', '104.0', '6273.0', '467.0', '1725.0', '6636.0', '1338.0', '1459.0', '1580.0', '6999.0', '443.0', '7120.0', '7749.0', '1314.0', '15176.0', '20595.0', '298.0', '6346.0', '1556.0', '419.1', '1677.0', '7725.0', '32.0', '6709.0', '1919.0', '782.0', '1411.0', '6322.0', '6951.0', '16023.0', '637.0', '6685.0', '129.0', '6177.0', '1387.0', '6806.0', '15878.0', '1508.0', '1750.0', '1242.0', '1871.0', '15104.0', '105.0', '6782.0', '6274.0', '468.0', '1726.2', '6637.0', '81.0', '1339.0', '1460.0', '444.2', '7750.2', '15056.0', '1315.0', '20596.0', '6226.0', '299.0', '6347.0', '420.0', '7726.0', '33.0', '6710.0', '1920.0', '15153.0', '783.0', '6202.0', '1412.0', '6831.0', '1654.0', '9.0', '638.0', '6686.0', '1388.0', '6807.0', '15250.0', '15879.0', '880.0', '1630.2', '1243.0', '1872.0', '15105.0', '106.0', '6783.0', '6275.0', '348.0', '1606.0', '7025.0', '469.0', '1727.0', '590.0', '82.1', '6130.0', '1340.0', '6759.0', '15202.0', '6251.0', '1461.0', '445.0', '7751.0', '566.0', '15057.0', '6735.0', '6348.0', '421.0', '1679.0', '7727.0', '1921.0', '15154.0', '1413.0', '6832.0', '1655.0', '10.0', '6687.0', '15130.0', '1389.0', '15251.0', '15880.0', '881.0', '1631.2', '1244.0', '107.2', '15227.0', '228.0', '1486.0', '349.0', '1728.0', '6639.0', '15082.0', '83.0', '6131.0', '1341.0', '6760.0', '15203.0', '1462.0', '325.0', '1583.0', '446.0', '7752.0', '6615.0', '59.2', '301.0', '1559.0', '422.0', '1051.0', '1680.0', '7728.0', '6712.0', '1922.0', '15155.0', '6833.0', '398.0', '6688.0', '15131.0', '6180.0', '1390.0', '15252.0', '15881.0', '253.2', '882.0', '1632.0', '1245.0', '108.0', '6156.0', '15228.0', '6277.0', '1100.0', '1729.0', '1221.0', '6640.0', '84.0', '1342.0', '6761.0', '15204.0', '20744.0', '1584.0', '447.0', '7753.0', '6616.0', '60.2', '181.0', '6229.0', '6350.0', '1560.0', '423.0', '1052.0', '7729.0', '544.0', '6205.0', '6834.0', '907.0', '16027.0', '399.0', '520.0', '641.0', '6181.0', '1391.0', '15253.0', '15882.0', '254.2', '496.0', '6665.0', '15108.0', '109.0', '15229.0', '1101.0', '1730.0', '593.0', '85.0', '1343.0', '6762.0', '15205.0', '206.2', '448.0', '7754.0', '569.0', '15060.0', '61.0', '6859.0', '424.0', '1053.0', '6714.0', '20576.0', '6835.0', '908.0', '521.0', '1150.0', '642.0', '6690.0', '1392.0', '15254.0', '15883.0', '255.0', '376.1', '497.0', '1126.0', '6666.0', '15109.0', '110.0', '15230.0', '231.0', '1731.0', '7779.0', '6642.0', '15085.0', '86.0', '6134.0', '6763.0', '15206.0', '207.2', '6255.0', '15448.0', '449.0', '1707.0', '7755.0', '6618.0', '15061.0', '691.0', '6860.0', '7731.0', '6715.0', '20577.0', '159.0', '6836.0', '909.0', '14.2', '6691.0', '15255.0', '15884.0', '377.0', '111.0', '6159.0', '15231.0', '6280.0', '7030.0', '1732.0', '7780.0', '6643.0', '87.0', '6135.0', '6764.0', '15207.0', '208.0', '6256.0', '450.0', '1708.0', '7756.0', '6619.0', '692.0', '184.0', '6861.0', '6353.0', '6982.0', '426.0', '7732.0', '547.0', '1660.0', '15.2', '6692.0', '15885.0', '378.0', '6668.0', '112.0', '6789.0', '15232.0', '6402.0', '1104.0', '1733.0', '7781.2', '15208.0', '6257.0', '451.0', '7757.0', '1830.2', '693.0', '15184.0', '6233.0', '6862.0', '1564.2', '427.0', '1685.0', '7733.2', '1298.0', '1927.0', '6330.0', '1661.0', '7709.0', '524.0', '16.0', '6693.0', '137.0', '1395.0', '15257.0', '15886.0', '15378.0', '379.0', '500.0', '6669.0', '113.0', '6790.0', '6403.0', '1734.0', '7782.0', '89.0', '6766.0', '6887.0', '452.0', '7758.0', '1831.0', '15185.0', '6234.0', '6863.0', '1565.2', '6476.0', '1686.1', '7734.0', '6597.0', '41.0', '20580.0', '162.0', '404.0', '7710.0', '525.0', '1783.0', '6694.0', '1396.0', '15258.0', '6936.0', '380.0', '501.0', '7807.0', '114.0', '15234.0', '20653.0', '6404.0', '1614.0', '1735.0', '7783.0', '15089.0', '90.1', '15210.0', '6888.0', '961.0', '7009.0', '453.0', '1711.0', '7759.0', '1203.0', '1832.0', '6743.0', '6235.0', '6864.0', '1566.0', '6477.0', '1687.0', '7735.0', '6598.0', '15162.0', '20581.0', '284.0', '405.0', '1663.0', '18.0', '6695.0', '6816.0', '15259.0', '6308.0', '6937.0', '381.0', '15501.0', '7808.2', '115.0', '15235.0', '20654.0', '1736.0', '7784.0', '15090.0', '91.0', '6768.0', '6889.0', '333.1', '962.0', '454.0', '1712.0', '7760.0', '1204.0', '1833.0', '817.0', '309.0', '430.0', '6478.0', '1688.0', '7736.0', '6720.0', '15163.0', '285.0', '6333.0', '1664.0', '6575.0', '19.0', '6696.0', '140.0', '15260.0', '6938.0', '7809.0', '116.0', '1737.0', '7785.0', '6648.0', '15091.0', '92.0', '6769.0', '15212.0', '6890.0', '15962.0', '334.0', '963.0', '1592.0', '455.0', '7761.0', '6624.0', '1834.0', '15188.0', '818.0', '6237.0', '1568.0', '431.0', '1689.0', '7737.0', '15043.0', '44.0', '15164.0', '6213.0', '7713.0', '6576.0', '20.1', '1907.0', '6189.0', '15261.0', '1520.0', '6939.0', '7810.0', '117.0', '1617.0', '1109.0', '1738.0', '7786.0', '6649.0', '93.0', '6891.0', '335.0', '7012.0', '7762.0', '577.0', '1835.0', '6117.0', '819.0', '1690.0', '7738.0', '15044.0', '6722.0', '6214.0', '408.0', '7714.0', '1158.0', '6577.0', '21.0', '1908.0', '6190.0', '15262.0', '6311.0', '1521.0', '6940.0', '384.0', '1134.0', '7811.0', '6674.0', '118.0', '1739.0', '7787.0', '15093.0', '94.0', '6892.0', '336.0', '7013.0', '15456.0', '457.0', '1715.0', '7763.0', '578.0', '1836.0', '15069.0', '6118.0', '1691.0', '7739.0', '6723.0', '20585.0', '288.0', '409.0', '1159.0', '1788.0', '22.0', '1909.2', '1522.0', '6941.0', '1643.0', '7812.0', '6675.0', '17513.0', '1885.2', '119.0', '6288.0', '361.0', '482.0', '7788.0', '6651.0', '95.0', '6143.0', '15965.0', '337.0', '1595.0', '15457.0', '458.2', '1716.0', '6627.0', '1837.0', '15070.0', '6240.0', '1450.0', '1571.0', '434.0', '7740.0', '555.0', '20586.0', '6845.0', '6458.0', '1789.0', '23.0', '1910.0', '144.2', '1402.0', '15264.0', '1523.0', '1644.0', '1136.0', '7813.0', '6676.0', '1886.0', '120.0', '7039.0', '483.0', '1741.0', '7789.0', '6652.0', '6144.0', '338.0', '459.0', '7765.0', '1838.0', '72.0', '1451.0', '435.0', '1693.1', '7741.0', '15047.0', '48.2', '20587.0', '6217.0', '6846.0', '16039.0', '6459.0', '1669.0', '24.0', '1911.0', '15144.0', '145.2', '6193.0', '1403.0', '15265.0', '1524.0', '1645.1', '1137.0', '7814.0']

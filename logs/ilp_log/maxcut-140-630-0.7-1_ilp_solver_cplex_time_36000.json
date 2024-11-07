@@ -1,0 +1,1 @@
+{"cost": -1260.0, "time_limit": 36000, "runtime": 0.23906683921813965, "solver": "cplex", "acyclic": true, "input_file": "./dataset/maxsat/maxcut-140-630-0.7-1.json", "status": "Optimal"}

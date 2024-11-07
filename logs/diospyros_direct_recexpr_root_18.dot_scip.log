@@ -1,0 +1,31 @@
+presolving:
+(round 1, fast)       17630 del vars, 51658 del conss, 0 add conss, 17629 chg bounds, 616915 chg sides, 599286 chg coeffs, 0 upgd conss, 0 impls, 1 clqs
+(round 2, fast)       17631 del vars, 95556 del conss, 0 add conss, 17629 chg bounds, 617286 chg sides, 599657 chg coeffs, 0 upgd conss, 0 impls, 1864 clqs
+(round 3, exhaustive) 17636 del vars, 95758 del conss, 0 add conss, 17645 chg bounds, 617698 chg sides, 600069 chg coeffs, 598725 upgd conss, 0 impls, 1864 clqs
+(round 4, fast)       17636 del vars, 95766 del conss, 0 add conss, 17645 chg bounds, 669754 chg sides, 652125 chg coeffs, 598725 upgd conss, 13187 impls, 1864 clqs
+   (319.5s) probing: 394/201304 (0.2%) - 0 fixings, 0 aggregations, 1044 implications, 0 bound changes
+   (319.5s) probing aborted: 50/50 successive totally useless probings
+   Deactivated symmetry handling methods, since SCIP was built without symmetry detector (SYM=none).
+presolving (5 rounds: 5 fast, 2 medium, 2 exhaustive):
+ 17636 deleted vars, 95794 deleted constraints, 0 added constraints, 17649 tightened bounds, 0 added holes, 670230 changed sides, 652597 changed coefficients
+ 13225 implications, 2870 cliques
+presolved problem has 201940 variables (201304 bin, 0 int, 0 impl, 636 cont) and 1170837 constraints
+  13351 constraints of type <varbound>
+   1864 constraints of type <setppc>
+ 571948 constraints of type <linear>
+ 583674 constraints of type <logicor>
+transformed objective value is always integral (scale: 0.001)
+Presolving Time: 374.66
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  571s|     1 |     0 |150493 |     - |    32G |   0 | 201k|1170k|1170k|   0 |  0 |  18 |   0 | 0.000000e+00 |      --      |    Inf | unknown
+(node 1) LP solver hit time limit in LP 2 -- using pseudo solution instead
+
+SCIP Status        : solving was interrupted [time limit reached]
+Solving Time (sec) : 571.43
+Solving Nodes      : 1
+Primal Bound       : +1.00000000000000e+20 (0 solutions)
+Dual Bound         : +0.00000000000000e+00
+Gap                : infinite
+Root classes: ['18']
+Status: INFEASIBLE

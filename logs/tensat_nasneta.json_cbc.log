@@ -1,0 +1,134 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /work/zhang-x2/users/yc2632/miniconda3/envs/newpt2/lib/python3.9/site-packages/pulp/solverdir/cbc/linux/64/cbc /tmp/44ae1f829a4a4155bf85cb05baf6a860-pulp.mps sec 900 timeMode elapsed branch printingOptions all solution /tmp/44ae1f829a4a4155bf85cb05baf6a860-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 205174 COLUMNS
+At line 910637 RHS
+At line 1115807 BOUNDS
+At line 1186880 ENDATA
+Problem MODEL has 205169 rows, 71072 columns and 603581 elements
+Coin0008I MODEL read with 0 errors
+seconds was changed from 1e+100 to 900
+Option for timeMode changed from cpu to elapsed
+Continuous objective value is 1.89597 - 2.40 seconds
+Cgl0003I 12 fixed, 0 tightened bounds, 47005 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 2366 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 35743 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 617 strengthened rows, 0 substitutions
+Cgl0004I processed model has 149600 rows, 70573 columns (42818 integer (42818 of which binary)) and 538546 elements
+Cbc0038I Initial state - 970 integers unsatisfied sum - 27.2824
+Cbc0038I Pass   1: (12.04 seconds) suminf.   19.52837 (1387) obj. 2.50256 iterations 9775
+Cbc0038I Pass   2: (13.79 seconds) suminf.   19.03762 (2295) obj. 2.52242 iterations 6098
+Cbc0038I Pass   3: (15.77 seconds) suminf.   17.80557 (2188) obj. 2.58205 iterations 5625
+Cbc0038I Pass   4: (18.05 seconds) suminf.   17.62709 (2789) obj. 2.58883 iterations 6282
+Cbc0038I Pass   5: (19.48 seconds) suminf.   14.19424 (1864) obj. 2.22525 iterations 3317
+Cbc0038I Pass   6: (21.38 seconds) suminf.   13.79511 (2549) obj. 2.25153 iterations 4777
+Cbc0038I Pass   7: (23.15 seconds) suminf.   14.08546 (2068) obj. 2.22076 iterations 3504
+Cbc0038I Pass   8: (25.97 seconds) suminf.   13.69809 (2794) obj. 2.26212 iterations 5591
+Cbc0038I Pass   9: (29.16 seconds) suminf.   13.99201 (3256) obj. 2.22107 iterations 5491
+Cbc0038I Pass  10: (30.26 seconds) suminf.   13.59241 (2269) obj. 2.26199 iterations 2662
+Cbc0038I Pass  11: (34.81 seconds) suminf.   13.96460 (3616) obj. 2.21667 iterations 7029
+Cbc0038I Pass  12: (39.52 seconds) suminf.   14.68870 (2830) obj. 2.43291 iterations 12186
+Cbc0038I Pass  13: (43.31 seconds) suminf.   13.45389 (2519) obj. 2.26218 iterations 16379
+Cbc0038I Pass  14: (45.57 seconds) suminf.   13.78562 (2145) obj. 2.23259 iterations 3931
+Cbc0038I Pass  15: (50.14 seconds) suminf.   13.84105 (2860) obj. 2.26943 iterations 11973
+Cbc0038I Pass  16: (55.01 seconds) suminf.   13.10906 (2166) obj. 2.26222 iterations 16691
+Cbc0038I Pass  17: (56.71 seconds) suminf.   13.41514 (2171) obj. 2.23276 iterations 3322
+Cbc0038I Pass  18: (60.72 seconds) suminf.   13.50122 (2857) obj. 5.63327 iterations 12282
+Cbc0038I Pass  19: (69.27 seconds) suminf.   13.00161 (3715) obj. 5.60901 iterations 22654
+Cbc0038I Pass  20: (72.14 seconds) suminf.   13.33901 (2893) obj. 5.56754 iterations 5426
+Cbc0038I Pass  21: (77.60 seconds) suminf.   13.74766 (2198) obj. 5.69478 iterations 14253
+Cbc0038I Pass  22: (86.16 seconds) suminf.   12.87564 (2641) obj. 5.6086 iterations 22504
+Cbc0038I Pass  23: (90.45 seconds) suminf.   13.20701 (3038) obj. 5.56309 iterations 4965
+Cbc0038I Pass  24: (99.01 seconds) suminf.   13.39864 (2452) obj. 5.65563 iterations 15070
+Cbc0038I Pass  25: (106.59 seconds) suminf.   12.52291 (2520) obj. 5.60736 iterations 18273
+Cbc0038I Pass  26: (107.99 seconds) suminf.   12.82118 (2176) obj. 5.56603 iterations 2379
+Cbc0038I Pass  27: (115.94 seconds) suminf.   12.97814 (2847) obj. 7.12521 iterations 13439
+Cbc0038I Pass  28: (125.54 seconds) suminf.   12.65032 (2761) obj. 7.15202 iterations 19198
+Cbc0038I Pass  29: (128.49 seconds) suminf.   19.34793 (2512) obj. 7.9126 iterations 4640
+Cbc0038I Pass  30: (132.51 seconds) suminf.   12.86853 (2700) obj. 7.14246 iterations 5528
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 25338 integers at bound fixed and 22693 continuous
+Cbc0038I Mini branch and bound did not improve solution (133.27 seconds)
+Cbc0038I After 135.74 seconds - Feasibility pump exiting - took 124.79 seconds
+Cbc0031I 514 added rows had average density of 5.9007782
+Cbc0013I At root node, 514 cuts changed objective from 1.9672813 to 4.3963979 in 39 passes
+Cbc0014I Cut generator 0 (Probing) - 8660 row cuts average 167.1 elements, 23 column cuts (503 active)  in 14.353 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 393 row cuts average 167.1 elements, 0 column cuts (0 active)  in 10.160 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 14 row cuts average 15.6 elements, 0 column cuts (0 active)  in 1.093 seconds - new frequency is 1
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.136 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 141 row cuts average 54.6 elements, 0 column cuts (0 active)  in 1.849 seconds - new frequency is 1
+Cbc0014I Cut generator 5 (FlowCover) - 29 row cuts average 2.0 elements, 0 column cuts (0 active)  in 0.898 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 350 row cuts average 89.2 elements, 0 column cuts (0 active)  in 6.653 seconds - new frequency is 1
+Cbc0010I After 0 nodes, 1 on tree, 1e+50 best solution, best possible 4.3963979 (194.25 seconds)
+Cbc0010I After 100 nodes, 71 on tree, 1e+50 best solution, best possible 4.3963979 (344.19 seconds)
+Cbc0012I Integer solution of 11.974827 found by rounding after 101093 iterations and 183 nodes (387.62 seconds)
+Cbc0038I Full problem 149600 rows 70573 columns, reduced to 0 rows 0 columns
+Cbc0038I Full problem 149600 rows 70573 columns, reduced to 288 rows 210 columns
+Cbc0010I After 200 nodes, 108 on tree, 11.974827 best solution, best possible 4.3963979 (397.34 seconds)
+Cbc0038I Full problem 149600 rows 70573 columns, reduced to 360 rows 259 columns
+Cbc0010I After 300 nodes, 96 on tree, 11.974827 best solution, best possible 4.3963979 (447.32 seconds)
+Cbc0010I After 400 nodes, 96 on tree, 11.974827 best solution, best possible 4.3963979 (481.30 seconds)
+Cbc0012I Integer solution of 11.968124 found by rounding after 312958 iterations and 410 nodes (483.02 seconds)
+Cbc0012I Integer solution of 11.961421 found by rounding after 385502 iterations and 493 nodes (516.05 seconds)
+Cbc0010I After 500 nodes, 96 on tree, 11.961421 best solution, best possible 4.3963979 (517.29 seconds)
+Cbc0038I Full problem 149600 rows 70573 columns, reduced to 577 rows 403 columns
+Cbc0010I After 600 nodes, 102 on tree, 11.961421 best solution, best possible 4.3963979 (547.32 seconds)
+Cbc0010I After 700 nodes, 113 on tree, 11.961421 best solution, best possible 4.3963979 (571.00 seconds)
+Cbc0038I Full problem 149600 rows 70573 columns, reduced to 628 rows 426 columns
+Cbc0010I After 800 nodes, 107 on tree, 11.961421 best solution, best possible 4.3963979 (587.51 seconds)
+Cbc0038I Full problem 149600 rows 70573 columns, reduced to 660 rows 448 columns
+Cbc0010I After 900 nodes, 118 on tree, 11.961421 best solution, best possible 4.3963979 (617.10 seconds)
+Cbc0010I After 1000 nodes, 128 on tree, 11.961421 best solution, best possible 4.3963979 (633.61 seconds)
+Cbc0038I Full problem 149600 rows 70573 columns, reduced to 1102 rows 712 columns
+Cbc0012I Integer solution of 11.961389 found by RINS after 572641 iterations and 1100 nodes (725.69 seconds)
+Cbc0010I After 1100 nodes, 217 on tree, 11.961389 best solution, best possible 4.3963979 (725.69 seconds)
+Cbc0010I After 1200 nodes, 248 on tree, 11.961389 best solution, best possible 4.3963979 (770.80 seconds)
+Cbc0012I Integer solution of 11.676909 found by rounding after 612443 iterations and 1288 nodes (800.78 seconds)
+Cbc0010I After 1300 nodes, 223 on tree, 11.676909 best solution, best possible 4.3963979 (804.74 seconds)
+Cbc0038I Full problem 149600 rows 70573 columns, reduced to 480 rows 337 columns
+Cbc0012I Integer solution of 11.650252 found by rounding after 620535 iterations and 1304 nodes (806.72 seconds)
+Cbc0012I Integer solution of 11.643549 found by rounding after 645029 iterations and 1369 nodes (822.51 seconds)
+Cbc0038I Full problem 149600 rows 70573 columns, reduced to 479 rows 335 columns
+Cbc0010I After 1400 nodes, 206 on tree, 11.643549 best solution, best possible 4.3963979 (829.76 seconds)
+Cbc0012I Integer solution of 11.639761 found by rounding after 662738 iterations and 1430 nodes (836.67 seconds)
+Cbc0038I Full problem 149600 rows 70573 columns, reduced to 415 rows 290 columns
+Cbc0010I After 1500 nodes, 227 on tree, 11.639761 best solution, best possible 4.3963979 (857.78 seconds)
+Cbc0012I Integer solution of 11.636301 found by rounding after 700243 iterations and 1546 nodes (865.38 seconds)
+Cbc0010I After 1600 nodes, 233 on tree, 11.636301 best solution, best possible 4.3963979 (874.54 seconds)
+Cbc0010I After 1700 nodes, 234 on tree, 11.636301 best solution, best possible 4.3963979 (887.38 seconds)
+Cbc0020I Exiting on maximum time
+Cbc0005I Partial search - best objective 11.636301 (best possible 4.3963979), took 721135 iterations and 1737 nodes (893.07 seconds)
+Cbc0032I Strong branching done 12642 times (400310 iterations), fathomed 58 nodes and fixed 184 variables
+Cbc0035I Maximum depth 111, 438624 variables fixed on reduced cost
+Cuts at root node changed objective from 1.96728 to 4.3964
+Probing was tried 1335 times and created 13222 cuts of which 480 were active after adding rounds of cuts (17.501 seconds)
+Gomory was tried 1335 times and created 1427 cuts of which 0 were active after adding rounds of cuts (51.579 seconds)
+Knapsack was tried 1335 times and created 79 cuts of which 0 were active after adding rounds of cuts (26.344 seconds)
+Clique was tried 39 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.136 seconds)
+MixedIntegerRounding2 was tried 1335 times and created 1858 cuts of which 0 were active after adding rounds of cuts (46.995 seconds)
+FlowCover was tried 39 times and created 29 cuts of which 0 were active after adding rounds of cuts (0.898 seconds)
+TwoMirCuts was tried 1334 times and created 884 cuts of which 0 were active after adding rounds of cuts (46.697 seconds)
+ZeroHalf was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (1.963 seconds)
+ImplicationCuts was tried 72 times and created 2778 cuts of which 0 were active after adding rounds of cuts (0.207 seconds)
+
+Result - Stopped on time limit
+
+Objective value:                11.63630106
+Lower bound:                    4.396
+Gap:                            1.65
+Enumerated nodes:               1737
+Total iterations:               721135
+Time (CPU seconds):             881.25
+Time (Wallclock seconds):       895.42
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       881.56   (Wallclock seconds):       895.76
+
+Root classes: ['805']
+Status: Optimal
+Solved x values:
+['739__0', '1876__0', '61__0', '580__0', '138__0', '224__0', '42112__0', '347__0', '229__0', '646__0', '492__0', '187__0', '587__4', '612__0', '51__0', '182__0', '115__0', '4__0', '1844__0', '2044__0', '374__0', '595__0', '784__0', '553__1', '1875__0', '438__0', '2__0', '465__0', '545__0', '2039__0', '667__43', '419__0', '555__0', '543__9', '1936__0', '2121__0', '324__0', '584__0', '326__0', '491__0', '575__0', '2112__0', '962__3', '280__0', '771__0', '682__0', '641__1', '524__0', '1911__0', '621__0', '763__0', '19__0', '42508__0', '262__0', '743__0', '690__0', '42556__0', '2241__0', '666__0', '271__4', '400__0', '570__0', '660__0', '638__0', '365__0', '163__0', '58__0', '340__0', '2127__0', '236__0', '1101__0', '325__0', '305__0', '1899__0', '768__1', '185__1', '2147__0', '711__0', '1003__0', '40624__0', '594__0', '713__0', '508__0', '48__0', '304__0', '961__0', '520__0', '301__1', '552__0', '796__0', '514__1', '100__0', '478__0', '738__4', '533__4', '535__0', '794__0', '246__0', '505__0', '756__0', '368__0', '68__0', '118__0', '755__0', '147__0', '2145__0', '199__0', '168__1', '412__0', '1977__0', '27__0', '255__0', '922__3', '1850__0', '1941__0', '488__0', '699__0', '737__0', '146__0', '42552__4', '225__0', '290__0', '175__0', '60__0', '536__4', '17__0', '386__0', '40730__0', '611__0', '191__0', '447__0', '39__0', '1838__0', '116__0', '176__0', '982__3', '752__0', '153__0', '1971__0', '315__0', '42528__4', '822__5', '41655__0', '242__0', '23__1', '801__4', '1881__0', '66__0', '486__1', '2181__0', '288__11', '789__0', '728__4', '360__0', '274__4', '2163__0', '529__0', '436__0', '129__0', '775__0', '684__0', '454__5', '359__0', '366__4', '566__1', '384__0', '721__0', '6__0', '18__0', '24__0', '171__0', '751__1', '1918__7', '41951__0', '459__0', '792__0', '41__0', '572__0', '427__0', '787__0', '636__0', '221__1', '128__0', '2135__0', '435__0', '95__0', '1979__0', '337__0', '1001__0', '194__0', '41577__0', '757__0', '208__4', '651__0', '42564__0', '42386__0', '745__0', '362__1', '130__0', '883__0', '693__0', '1972__0', '1934__0', '69__0', '202__0', '42547__2', '284__0', '2165__0', '375__0', '516__0', '687__0', '707__0', '415__0', '181__0', '307__0', '507__0', '511__0', '42572__0', '729__0', '746__0', '408__0', '42587__2', '377__0', '403__0', '765__0', '245__0', '406__1', '474__0', '654__1', '40694__0', '629__0', '154__0', '1882__0', '357__0', '253__0', '592__0', '233__0', '42568__4', '363__0', '276__0', '410__4', '21__0', '548__0', '42110__0', '2109__0', '11__0', '94__0', '222__0', '42516__0', '40622__0', '1991__0', '554__0', '20__0', '286__0', '2142__0', '42512__4', '2211__0', '1919__0', '349__0', '1841__0', '489__0', '494__0', '122__0', '268__4', '2126__0', '567__0', '283__0', '1874__0', '797__0', '716__0', '414__0', '1877__0', '1894__0', '71__0', '223__0', '749__0', '525__0', '371__0', '2172__0', '170__0', '642__0', '963__0', '101__0', '498__0', '726__0', '303__0', '2045__0', '2103__0', '593__0', '372__0', '1082__5', '2136__0', '398__0', '41588__0', '380__0', '42111__0', '42515__2', '477__0', '522__0', '686__0', '135__0', '656__0', '41570__0', '389__1', '434__0', '348__0', '526__0', '42604__0', '289__0', '674__0', '568__0', '416__0', '2115__0', '42555__2', '573__0', '14__0', '209__0', '235__0', '800__0', '40625__0', '2006__0', '285__0', '2184__0', '596__0', '610__1', '113__0', '354__0', '299__0', '240__0', '590__0', '205__0', '119__0', '558__0', '702__0', '862__3', '250__0', '376__4', '277__0', '219__0', '671__1', '480__0', '795__0', '431__0', '173__0', '391__0', '715__1', '706__0', '630__0', '193__0', '83__0', '791__0', '75__0', '256__0', '549__0', '252__0', '2106__0', '619__0', '571__0', '33__0', '748__0', '542__0', '422__0', '470__0', '487__0', '321__0', '731__0', '2154__0', '1061__0', '604__0', '97__1', '157__0', '981__0', '2072__0', '766__0', '780__0', '215__0', '530__0', '42548__0', '25__0', '107__0', '42588__0', '692__0', '669__0', '78__0', '585__0', '42532__0', '41948__0', '730__0', '87__0', '760__0', '2196__0', '112__0', '544__0', '1839__0', '1916__0', '314__43', '451__0', '281__0', '106__0', '623__43', '266__0', '418__0', '81__0', '65__0', '72__0', '2186__0', '302__0', '538__0', '55__0', '724__0', '655__0', '753__0', '41480__0', '40664__0', '614__0', '91__0', '41656__0', '2157__0', '330__0', '111__1', '2153__0', '681__0', '1103__0', '40__0', '2148__0', '393__0', '54__0', '804__4', '258__0', '322__1', '298__0', '34__0', '805__0', '504__0', '42113__0', '41540__0', '703__0', '174__0', '1970__0', '2038__0', '1978__1', '652__0', '1976__0', '42507__2', '659__0', '1964__0', '278__2', '464__0', '466__0', '333__0', '455__0', '672__0', '218__0', '390__0', '212__0', '143__0', '1952__0', '28__0', '84__0', '62__0', '463__4', '110__0', '717__0', '921__0', '506__0', '36__1', '547__0', '718__0', '42524__0', '700__0', '448__0', '735__0', '616__0', '15__0', '139__0', '188__0', '356__0', '142__0', '244__0', '2180__0', '1102__3', '736__0', '41654__0', '599__0', '1973__0', '1904__0', '676__0', '141__1', '152__0', '201__0', '472__0', '74__0', '316__0', '42603__2', '22__0', '473__1', '42595__2', '2007__0', '469__0', '689__0', '2159__0', '2043__0', '272__0', '109__0', '402__43', '683__0', '941__0', '452__0', '442__0', '586__0', '734__0', '2037__0', '1__0', '732__0', '776__0', '2193__0', '127__0', '2036__0', '2108__0', '1892__0', '190__0', '2102__0', '658__0', '637__0', '5__0', '589__0', '484__0', '1940__0', '42523__2', '327__0', '532__0', '679__0', '40712__0', '563__0', '7__0', '41516__0', '560__0', '40892__0', '842__5', '719__1', '329__0', '430__0', '1928__0', '420__1', '579__0', '2130__0', '428__0', '481__0', '260__0', '2198__0', '41636__0', '198__4', '31__0', '462__0', '521__0', '42584__4', '444__0', '273__0', '42499__0', '413__0', '1988__0', '740__0', '519__0', '89__0', '685__4', '475__0', '695__0', '2120__0', '1935__0', '155__0', '86__0', '334__0', '102__0', '394__0', '332__9', '1886__0', '189__1', '2190__0', '540__0', '1880__0', '696__0', '2166__0', '261__0', '57__4', '44__0', '59__0', '108__0', '534__0', '500__0', '40700__0', '421__0', '537__0', '515__0', '627__1', '392__0', '777__0', '42571__4', '1989__0', '82__0', '608__0', '124__1', '793__0', '41949__0', '98__0', '483__0', '42544__4', '151__0', '2042__0', '296__0', '216__0', '503__1', '615__0', '263__0', '433__1', '1042__3', '782__0', '458__0', '770__0', '2151__0', '339__0', '383__0', '85__0', '457__0', '2160__0', '213__0', '417__0', '13__9', '577__0', '210__0', '179__0', '306__0', '259__0', '583__1', '677__0', '510__0', '2178__0', '10__0', '550__0', '265__0', '2141__0', '588__0', '186__0', '631__1', '336__0', '803__0', '774__0', '733__0', '495__0', '269__0', '206__0', '2114__0', '125__0', '2169__0', '2061__0', '30__0', '569__0', '381__0', '367__0', '607__0', '2175__0', '241__0', '192__0', '293__0', '43__0', '2133__0', '1895__0', '353__0', '424__0', '373__0', '673__0', '634__0', '720__0', '882__5', '226__0', '663__0', '105__0', '40856__0', '546__0', '197__0', '561__0', '308__2', '2168__0', '501__0', '1898__0', '1958__0', '786__0', '370__0', '165__0', '50__0', '490__0', '257__0', '204__0', '369__0', '200__0', '169__0', '42492__0', '183__0', '345__1', '468__0', '3__0', '1062__3', '759__0', '2139__0', '47__0', '605__0', '42579__2', '409__0', '121__0', '2051__0', '93__0', '42539__2', '156__0', '622__0', '781__0', '45__0', '318__1', '239__0', '2199__0', '754__0', '769__0', '387__0', '313__0', '309__0', '41579__0', '1063__0', '12__0', '1910__0', '578__0', '675__1', '788__0', '92__0', '779__1', '136__0', '243__0', '2192__0', '144__0', '2048__0', '49__0', '275__0', '539__4', '564__0', '41578__0', '126__0', '445__0', '453__0', '2062__0', '162__0', '230__0', '551__0', '723__0', '704__0', '77__0', '287__0', '461__0', '624__0', '598__0', '99__0', '2132__0', '2174__0', '648__0', '1937__0', '67__5', '705__0', '527__0', '785__0', '8__0', '518__0', '762__0', '343__0', '742__0', '523__0', '1041__0', '2050__0', '53__1', '42500__0', '665__0', '497__0', '2049__0', '251__0', '331__0', '80__1', '645__0', '773__0', '628__0', '40623__0', '254__0', '232__0', '901__0', '41657__0', '364__0', '37__0', '270__0', '2118__0', '441__0', '581__0', '618__0', '799__0', '591__0', '42531__4', '802__0', '249__1', '1862__0', '643__0', '320__0', '528__0', '41534__0', '798__4', '342__0', '633__0', '227__0', '9__0', '942__3', '710__0', '41468__0', '698__1', '267__0', '509__0', '42560__4', '772__0', '292__0', '346__0', '574__0', '680__0', '351__0', '177__0', '172__0', '541__0', '602__0', '41804__0', '712__0', '639__0', '1917__0', '104__0', '517__0', '42540__0', '783__0', '640__0', '279__0', '668__0', '149__0', '662__0', '41576__0', '133__0', '132__0', '439__0', '42491__4', '2060__0', '401__0', '722__0', '425__0', '2008__3', '1043__0', '395__0', '42608__4', '41950__0', '42596__0', '378__0', '42350__0', '1883__0', '2124__0', '397__0', '2009__0', '557__0', '160__0', '42536__4', '247__0', '150__0', '790__0', '1840__11', '597__13', '159__0', '1868__0', '207__0', '450__1', '1893__0', '312__0', '350__0', '103__0', '437__0', '2063__0', '282__0', '1002__3', '42592__4', '1990__0', '407__0', '148__0', '264__0', '635__0', '678__0', '42580__0', '861__0', '238__1', '512__0', '404__0', '456__0', '64__0', '203__0', '701__0', '319__0', '902__3', '923__0', '531__0', '38__0', '657__0', '42563__2', '0__0', '63__0', '56__0', '625__0', '196__0', '41528__0', '471__0', '709__0', '295__0', '632__0', '1022__5', '323__0', '42__0', '411__0', '649__0', '180__0', '328__0', '145__1', '727__0', '613__0', '467__0', '2187__0', '166__0', '601__0', '16__0', '88__0', '310__0']

@@ -1,0 +1,1 @@
+{"cost": 3.613999999999997, "time_limit": 900, "runtime": 1.2587506771087646, "solver": "scip", "acyclic": true, "input_file": "./dataset/diospyros/vector_variadic_add_mac_root_23.dot", "status": "OPTIMAL"}

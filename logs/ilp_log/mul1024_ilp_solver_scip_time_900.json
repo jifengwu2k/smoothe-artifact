@@ -1,0 +1,1 @@
+{"cost": 424417.99999999977, "time_limit": 900, "runtime": 21.451822996139526, "solver": "scip", "acyclic": true, "input_file": "./dataset/impress/mul1024.dot", "status": "OPTIMAL"}

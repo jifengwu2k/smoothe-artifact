@@ -1,0 +1,1 @@
+{"cost": 4.850757016778516, "time_limit": 36000, "runtime": 36027.034865140915, "solver": "cplex", "acyclic": true, "input_file": "./dataset/tensat/vgg.json", "status": "Optimal"}

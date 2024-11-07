@@ -1,0 +1,41 @@
+presolving:
+(round 1, fast)       1680 del vars, 60388 del conss, 0 add conss, 1223 chg bounds, 76145 chg sides, 74924 chg coeffs, 0 upgd conss, 0 impls, 2923 clqs
+(round 2, fast)       2006 del vars, 65838 del conss, 0 add conss, 1223 chg bounds, 76462 chg sides, 75241 chg coeffs, 0 upgd conss, 0 impls, 2893 clqs
+(round 3, fast)       2192 del vars, 66374 del conss, 0 add conss, 1223 chg bounds, 78927 chg sides, 77706 chg coeffs, 0 upgd conss, 0 impls, 2893 clqs
+(round 4, fast)       2296 del vars, 66831 del conss, 0 add conss, 1223 chg bounds, 78927 chg sides, 77706 chg coeffs, 0 upgd conss, 0 impls, 2885 clqs
+(round 5, fast)       2310 del vars, 66886 del conss, 0 add conss, 1223 chg bounds, 78927 chg sides, 77706 chg coeffs, 0 upgd conss, 0 impls, 2885 clqs
+(round 6, exhaustive) 2320 del vars, 102588 del conss, 0 add conss, 1271 chg bounds, 78927 chg sides, 77706 chg coeffs, 0 upgd conss, 0 impls, 2883 clqs
+(round 7, fast)       2322 del vars, 102591 del conss, 0 add conss, 1271 chg bounds, 79396 chg sides, 78175 chg coeffs, 0 upgd conss, 0 impls, 2883 clqs
+(round 8, exhaustive) 2322 del vars, 102591 del conss, 0 add conss, 1339 chg bounds, 79635 chg sides, 78414 chg coeffs, 0 upgd conss, 0 impls, 2883 clqs
+(round 9, fast)       2322 del vars, 102591 del conss, 0 add conss, 1339 chg bounds, 79703 chg sides, 78482 chg coeffs, 0 upgd conss, 0 impls, 2883 clqs
+(round 10, exhaustive) 2322 del vars, 102591 del conss, 0 add conss, 1342 chg bounds, 79710 chg sides, 78489 chg coeffs, 33964 upgd conss, 0 impls, 2883 clqs
+(round 11, medium)     2349 del vars, 102641 del conss, 0 add conss, 1342 chg bounds, 79710 chg sides, 78489 chg coeffs, 33964 upgd conss, 14425 impls, 2856 clqs
+(round 12, exhaustive) 2349 del vars, 102940 del conss, 0 add conss, 1342 chg bounds, 79710 chg sides, 78489 chg coeffs, 33968 upgd conss, 14425 impls, 2856 clqs
+   (52.1s) probing: 61/14052 (0.4%) - 0 fixings, 0 aggregations, 8 implications, 0 bound changes
+   (52.1s) probing aborted: 50/50 successive totally useless probings
+   Deactivated symmetry handling methods, since SCIP was built without symmetry detector (SYM=none).
+presolving (13 rounds: 13 fast, 6 medium, 5 exhaustive):
+ 2350 deleted vars, 102940 deleted constraints, 0 added constraints, 1342 tightened bounds, 0 added holes, 79710 changed sides, 78489 changed coefficients
+ 14431 implications, 2856 cliques
+presolved problem has 16226 variables (14052 bin, 0 int, 0 impl, 2174 cont) and 53599 constraints
+  14400 constraints of type <varbound>
+   2856 constraints of type <setppc>
+  19980 constraints of type <linear>
+  16363 constraints of type <logicor>
+transformed objective value is always integral (scale: 1)
+Presolving Time: 58.12
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+p62.7s|     1 |     0 |   581 |     - | vbounds|   0 |  16k|  53k|  53k|   0 |  0 |   2 |   0 | 0.000000e+00 | 1.440500e+04 |    Inf | unknown
+ 65.1s|     1 |     0 |   598 |     - |  3224M |   0 |  16k|  53k|  53k|   0 |  0 |   7 |   0 | 1.050000e+03 | 1.440500e+04 |1271.90%| unknown
+r65.2s|     1 |     0 |   598 |     - |shifting|   0 |  16k|  53k|  53k|   0 |  0 |   7 |   0 | 1.050000e+03 | 1.050000e+03 |   0.00%| unknown
+ 65.2s|     1 |     0 |   598 |     - |  3224M |   0 |  16k|  53k|  53k|   0 |  0 |   7 |   0 | 1.050000e+03 | 1.050000e+03 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 65.21
+Solving Nodes      : 1
+Primal Bound       : +1.05000000000000e+03 (2 solutions)
+Dual Bound         : +1.05000000000000e+03
+Gap                : 0.00 %
+Root classes: ['12']
+Status: OPTIMAL

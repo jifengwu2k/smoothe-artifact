@@ -1,0 +1,1 @@
+{"cost": 1.1149999999999998, "time_limit": 36000, "runtime": 1198.2169275283813, "solver": "cplex", "acyclic": true, "input_file": "./dataset/diospyros/direct_recexpr_2_root_18.dot", "status": "Optimal"}

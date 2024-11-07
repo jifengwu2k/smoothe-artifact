@@ -1,0 +1,1 @@
+{"cost": 9283.0, "time_limit": 900, "runtime": 901.7707633972168, "solver": "cbc", "acyclic": true, "input_file": "./dataset/rover/fir_8_tap_5iteration_egraph.json", "status": "Optimal"}

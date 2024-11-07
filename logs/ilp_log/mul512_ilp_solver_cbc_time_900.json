@@ -1,0 +1,1 @@
+{"cost": 136680.0, "time_limit": 900, "runtime": 13.031914472579956, "solver": "cbc", "acyclic": true, "input_file": "./dataset/impress/mul512.dot", "status": "Optimal"}

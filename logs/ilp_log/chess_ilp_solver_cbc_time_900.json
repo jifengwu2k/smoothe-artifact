@@ -1,0 +1,1 @@
+{"cost": 6.0, "time_limit": 900, "runtime": 11.295780420303345, "solver": "cbc", "acyclic": true, "input_file": "./dataset/set/chess.json", "status": "Optimal"}

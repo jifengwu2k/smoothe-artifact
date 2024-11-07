@@ -1,0 +1,1 @@
+{"cost": -2600.0, "time_limit": 36000, "runtime": 0.45093202590942383, "solver": "cplex", "acyclic": true, "input_file": "./dataset/maxsat/s2v140c2600-3.json", "status": "Optimal"}

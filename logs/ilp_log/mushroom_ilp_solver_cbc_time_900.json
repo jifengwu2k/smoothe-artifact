@@ -1,0 +1,1 @@
+{"cost": 22.0, "time_limit": 900, "runtime": 19.916778564453125, "solver": "cbc", "acyclic": true, "input_file": "./dataset/set/mushroom.json", "status": "Optimal"}

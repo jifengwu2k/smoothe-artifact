@@ -1,0 +1,1 @@
+{"cost": 4696.0, "time_limit": 900, "runtime": 58.55267548561096, "solver": "scip", "acyclic": true, "input_file": "./dataset/set/retail.json", "status": "OPTIMAL"}

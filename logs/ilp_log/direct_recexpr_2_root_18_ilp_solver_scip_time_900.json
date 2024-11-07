@@ -1,0 +1,1 @@
+{"cost": 1.115, "time_limit": 900, "runtime": 346.6449909210205, "solver": "scip", "acyclic": true, "input_file": "./dataset/diospyros/direct_recexpr_2_root_18.dot", "status": "OPTIMAL"}

@@ -1,0 +1,90 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 22.1.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2022.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Problem '/tmp/defc81eeb10e481fa7a4c5bd6ea93abb-pulp.lp' read.
+Read time = 1.08 sec. (157.81 ticks)
+CPLEX> New value for time limit in seconds: 900
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_TimeLimit                               900
+Tried aggregator 2 times.
+MIP Presolve eliminated 99843 rows and 1980 columns.
+MIP Presolve modified 149832 coefficients.
+Aggregator did 369 substitutions.
+Reduced MIP has 56327 rows, 16226 columns, and 7135850 nonzeros.
+Reduced MIP has 14052 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 4.16 sec. (5743.15 ticks)
+Probing time = 0.18 sec. (26.37 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Elapsed time for symmetry detection = 3.28 sec. (10000.04 ticks)
+Elapsed time for symmetry detection = 6.57 sec. (20000.09 ticks)
+Found 6.526252e+2839 symmetric permutations.
+MIP Presolve eliminated 39 rows and 13 columns.
+MIP Presolve modified 1302 coefficients.
+Reduced MIP has 56288 rows, 16213 columns, and 7135746 nonzeros.
+Reduced MIP has 14052 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 10.11 sec. (27799.96 ticks)
+Probing fixed 2 vars, tightened 0 bounds.
+Probing time = 0.18 sec. (30.90 ticks)
+Clique table members: 3893.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 1.24 sec. (1249.58 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1255.0000        0.0000           100.00%
+      0     0     1050.0000     2     1255.0000     1050.0000      311   16.33%
+*     0+    0                         1050.0000     1050.0000             0.00%
+      0     0        cutoff           1050.0000     1050.0000      311    0.00%
+Elapsed time = 18.13 sec. (38174.58 ticks, tree = 0.01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =   18.15 sec. (38196.07 ticks)
+Parallel b&c, 32 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   18.15 sec. (38196.07 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.0500000000e+03
+Solution time =   18.20 sec.  Iterations = 311  Nodes = 0
+Deterministic time = 38196.12 ticks  (2098.82 ticks/sec)
+
+CPLEX> MILP problem relaxed to LP with fixed integer variables using
+incumbent solution.
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_TimeLimit                               900
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 30 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+LP Presolve eliminated 156539 rows and 18575 columns.
+All rows and columns eliminated.
+Presolve time = 0.29 sec. (531.26 ticks)
+
+Dual simplex solved model.
+
+
+Dual simplex - Optimal:  Objective =  1.0500000000e+03
+Solution time =    0.68 sec.  Iterations = 0 (0)
+Deterministic time = 890.05 ticks  (1309.06 ticks/sec)
+
+CPLEX> Solution written to file '/tmp/defc81eeb10e481fa7a4c5bd6ea93abb-pulp.sol'.
+CPLEX> Root classes: ['12']
+Status: Optimal
+Solved x values:
+['0.394', '2268.0', '2516.0', '13478.0', '40948.0', '24558.0', '611.0', '17246.0', '1240.0', '17110.0', '31728.0', '17485.0', '76.0', '200.0', '70.0', '64.0', '188.0', '17310.0', '22.0', '2535.0', '10.0', '7.0', '4.0', '1.0', '40955.0', '17253.0', '615.0', '17114.0', '40931.0', '600.0', '49858.0', '49855.0', '17314.0', '44.0', '17302.0', '35.0', '23.0', '2539.0', '17.0', '11.41', '2279.0', '8.176', '2527.0', '5.0', '2.0', '17118.0', '604.0', '5261.0', '1732.80', '17106.0', '17481.0', '17345.0', '72.0', '41029.0', '2083.0', '17306.0', '41377.0', '12.0', '2531.0', '9.0', '6.286', '17902.0', '3.0', '48901.0']

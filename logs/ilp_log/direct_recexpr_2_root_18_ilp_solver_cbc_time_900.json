@@ -1,0 +1,1 @@
+{"cost": 1.1149999999999998, "time_limit": 900, "runtime": 836.2690687179565, "solver": "cbc", "acyclic": true, "input_file": "./dataset/diospyros/direct_recexpr_2_root_18.dot", "status": "Optimal"}

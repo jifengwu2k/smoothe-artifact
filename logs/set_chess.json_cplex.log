@@ -1,0 +1,87 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 22.1.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2022.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Problem '/tmp/e8ea928bef544d55b76ed57b13f15186-pulp.lp' read.
+Read time = 0.15 sec. (21.85 ticks)
+CPLEX> New value for time limit in seconds: 900
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_TimeLimit                               900
+Tried aggregator 2 times.
+MIP Presolve eliminated 196650 rows and 6364 columns.
+Aggregator did 39981 substitutions.
+Reduced MIP has 24 rows, 142 columns, and 840 nonzeros.
+Reduced MIP has 142 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.22 sec. (279.19 ticks)
+Found incumbent of value 16.000000 after 0.23 sec. (297.74 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 41 columns.
+Reduced MIP has 24 rows, 101 columns, and 630 nonzeros.
+Reduced MIP has 101 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.40 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 24 rows, 101 columns, and 630 nonzeros.
+Reduced MIP has 101 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.28 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 0.00 sec. (0.21 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           16.0000        1.0000            93.75%
+*     0     0      integral     0        6.0000        6.0000       38    0.00%
+Elapsed time = 0.25 sec. (315.93 ticks, tree = 0.00 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.25 sec. (320.09 ticks)
+Parallel b&c, 32 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.25 sec. (320.09 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  6.0000000000e+00
+Solution time =    0.25 sec.  Iterations = 38  Nodes = 0
+Deterministic time = 320.45 ticks  (1268.19 ticks/sec)
+
+CPLEX> MILP problem relaxed to LP with fixed integer variables using
+incumbent solution.
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_TimeLimit                               900
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 30 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+LP Presolve eliminated 236655 rows and 124721 columns.
+All rows and columns eliminated.
+Presolve time = 0.05 sec. (88.58 ticks)
+
+Dual simplex solved model.
+
+
+Dual simplex - Optimal:  Objective =  6.0000000000e+00
+Solution time =    0.20 sec.  Iterations = 0 (0)
+Deterministic time = 193.06 ticks  (944.83 ticks/sec)
+
+CPLEX> Solution written to file '/tmp/e8ea928bef544d55b76ed57b13f15186-pulp.sol'.
+CPLEX> Root classes: ['3271']
+Status: Optimal
+Solved x values:
+['1877.0', '2100.0', '2775.0', '2891.0', '2900.0', '3169.0', '3196.1181', '3196.1404', '3197.1106', '3197.1222', '3197.1231', '3197.1500', '3198.1704', '3198.1921', '3198.2584', '3198.2824', '3199.286', '3199.315', '3200.1819', '3200.2024', '3200.2677', '3200.2684', '3200.2944', '3201.194', '3202.1851', '3202.2785', '3202.2794', '3202.3051', '3203.38', '3203.97', '3204.1772', '3204.1960', '3204.2536', '3204.2635', '3205.259', '3205.317', '3206.1312', '3206.1883', '3206.1951', '3206.1960', '3206.2107', '3207.638', '3208.914', '3208.1029', '3208.1485', '3208.1579', '3208.1695', '3209.1320', '3210.1260', '3210.1798', '3210.1879', '3210.1887', '3210.2023', '3211.708', '3212.1598', '3212.2183', '3212.2275', '3212.2284', '3212.2477', '3213.329', '3214.1753', '3214.1816', '3214.1825', '3214.1963', '3215.548', '3215.627', '3216.1436', '3216.1804', '3216.1920', '3216.1929', '3216.2198', '3217.558', '3218.1191', '3218.1790', '3219.805', '3219.1232', '3219.1288', '3219.1297', '3220.1899', '3220.2502', '3220.2618', '3220.2627', '3220.2850', '3221.140', '3222.1378', '3222.1977', '3222.1986', '3222.2182', '3223.644', '3223.884', '3224.1877', '3224.2100', '3224.2879', '3224.2888', '3224.3156', '3225.5', '3226.1528', '3226.1687', '3226.2169', '3226.2269', '3227.438', '3228.206', '3229.1864', '3229.2086', '3229.2792', '3229.3015', '3230.81', '3230.104', '3231.2033', '3231.2683', '3231.2796', '3231.2805', '3231.3072', '3232.39', '3233.1425', '3233.1935', '3233.2011', '3233.2020', '3234.522', '3234.992', '3235.1859', '3235.2082', '3235.2757', '3235.2869', '3235.2878', '3236.25', '3237.1720', '3237.1890', '3237.2394', '3237.2463', '3238.434', '3238.476', '3239.1675', '3239.2191', '3239.2307', '3239.2316', '3239.2585', '3240.319', '3241.1757', '3241.2259', '3241.2339', '3241.2348', '3241.2537', '3242.309', '3243.2001', '3243.2638', '3243.2749', '3243.2758', '3243.2998', '3244.69', '3245.1194', '3245.1807', '3246.786', '3246.1032', '3246.1091', '3246.1212', '3247.1874', '3247.2097', '3247.2772', '3247.2884', '3247.3158', '3248.8', '3249.1347', '3249.1930', '3249.2032', '3249.2041', '3249.2189', '3250.623', '3251.1864', '3251.2072', '3251.2705', '3251.2808', '3251.2994', '3252.86', '3253.1877', '3253.2100', '3253.2775', '3253.2899', '3253.3168', '3254.0', '3255.1877', '3255.2100', '3255.2771', '3255.2887', '3255.2896', '3256.20', '3257.1833', '3257.2050', '3257.2680', '3257.2797', '3258.102', '3258.135', '3259.1649', '3259.1817', '3259.2318', '3259.2385', '3259.2604', '3260.514', '3261.1852', '3261.2067', '3261.2691', '3261.2766', '3261.2775', '3262.148', '3263.1380', '3263.1517', '3263.1853', '3263.1916', '3263.1957', '3264.983', '3265.1364', '3265.1860', '3266.589', '3266.977', '3266.1035', '3266.1184', '3267.1524', '3267.1697', '3268.635', '3268.726', '3268.735', '3268.824', '3269.1537', '3269.2130', '3269.2246', '3269.2255', '3269.2380', '3270.437', '3271.0']

@@ -1,0 +1,1 @@
+{"cost": 0.20487959180417362, "time_limit": 900, "runtime": 893.4106547832489, "solver": "cbc", "acyclic": true, "input_file": "./dataset/tensat/nasrnn.json", "status": "Not Solved"}

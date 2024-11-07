@@ -1,0 +1,1 @@
+{"cost": 88.0, "time_limit": 900, "runtime": 8.251337051391602, "solver": "cplex", "acyclic": true, "input_file": "./dataset/flexc/fea54919-328c-4f00-aedc-2698d17914b6.json", "status": "Optimal"}

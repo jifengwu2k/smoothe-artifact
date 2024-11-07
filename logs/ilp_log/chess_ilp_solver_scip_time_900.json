@@ -1,0 +1,1 @@
+{"cost": 6.0, "time_limit": 900, "runtime": 5.7377238273620605, "solver": "scip", "acyclic": true, "input_file": "./dataset/set/chess.json", "status": "OPTIMAL"}

@@ -1,0 +1,1 @@
+{"cost": 6.336000000000002, "time_limit": 900, "runtime": 361.7793529033661, "solver": "cbc", "acyclic": true, "input_file": "./dataset/diospyros/vector_matrix_multiply_2x3_3x3_root_58.dot", "status": "Optimal"}

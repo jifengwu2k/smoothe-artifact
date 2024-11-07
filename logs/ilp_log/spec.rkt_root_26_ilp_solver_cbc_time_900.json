@@ -1,0 +1,1 @@
+{"cost": 2.018, "time_limit": 900, "runtime": 20.612279176712036, "solver": "cbc", "acyclic": true, "input_file": "./dataset/diospyros/spec.rkt_root_26.dot", "status": "Optimal"}

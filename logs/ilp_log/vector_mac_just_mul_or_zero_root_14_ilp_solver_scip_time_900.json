@@ -1,0 +1,1 @@
+{"cost": 1.309, "time_limit": 900, "runtime": 0.06211733818054199, "solver": "scip", "acyclic": true, "input_file": "./dataset/diospyros/vector_mac_just_mul_or_zero_root_14.dot", "status": "OPTIMAL"}

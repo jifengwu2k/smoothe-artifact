@@ -1,0 +1,29 @@
+VecLang::Num(..) => 0.001,
+VecLang::Symbol(..) => 0.001,
+VecLang::Get(..) => 0.001,
+
+VecLang::List(..) => 0.1,
+VecLang::Concat(..) => 0.1,
+
+VecLang::Vec(vals) => 0.1,
+VecLang::LitVec(..) => 0.001,
+
+VecLang::Add(vals) => 1,
+VecLang::Mul(vals) => 1,
+VecLang::Minus(vals) => 1,
+VecLang::Div(vals) => 1,
+
+VecLang::Sgn(..) => 1,
+VecLang::Neg(..) => 1,
+VecLang::Sqrt(..) => 1,
+
+VecLang::VecAdd(..) => 1,
+VecLang::VecMinus(..) => 1,
+VecLang::VecMul(..) => 1,
+VecLang::VecMAC(..) => 1,
+VecLang::VecDiv(..) => 1,
+VecLang::VecNeg(..) => 1,
+VecLang::VecSqrt(..) => 1,
+VecLang::VecSgn(..) => 1,
+
+VecLang::Default(..) => 0.001,

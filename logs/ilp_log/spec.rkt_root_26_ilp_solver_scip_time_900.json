@@ -1,0 +1,1 @@
+{"cost": 2.0180000000000002, "time_limit": 900, "runtime": 4.1733479499816895, "solver": "scip", "acyclic": true, "input_file": "./dataset/diospyros/spec.rkt_root_26.dot", "status": "OPTIMAL"}

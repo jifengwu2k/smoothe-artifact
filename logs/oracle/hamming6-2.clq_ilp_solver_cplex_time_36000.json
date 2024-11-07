@@ -1,0 +1,1 @@
+{"cost": -3648.0, "time_limit": 36000, "runtime": 0.5638046264648438, "solver": "cplex", "acyclic": true, "input_file": "./dataset/maxsat/hamming6-2.clq.json", "status": "Optimal"}

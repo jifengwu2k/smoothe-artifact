@@ -1,0 +1,1 @@
+{"cost": 2.018, "time_limit": 36000, "runtime": 1.1179826259613037, "solver": "cplex", "acyclic": true, "input_file": "./dataset/diospyros/spec.rkt_root_26.dot", "status": "Optimal"}

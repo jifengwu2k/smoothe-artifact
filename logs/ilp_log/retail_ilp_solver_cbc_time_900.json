@@ -1,0 +1,1 @@
+{"cost": 4696.0, "time_limit": 900, "runtime": 94.83027625083923, "solver": "cbc", "acyclic": true, "input_file": "./dataset/set/retail.json", "status": "Optimal"}

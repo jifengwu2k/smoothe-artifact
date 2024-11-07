@@ -1,0 +1,35 @@
+"+" = Add([Id; 2]),
+"*" = Mul([Id; 2]),
+"-" = Minus([Id; 2]),
+"/" = Div([Id; 2]),
+
+"or" = Or([Id; 2]),
+"&&" = And([Id; 2]),
+"ite" = Ite([Id; 3]),
+"<" = Lt([Id; 2]),
+
+"sgn" = Sgn([Id; 1]),
+"sqrt" = Sqrt([Id; 1]),
+"neg" = Neg([Id; 1]),
+
+"List" = List(Box<[Id]>),
+
+"Vec" = Vec(Box<[Id]>),
+
+"LitVec" = LitVec(Box<[Id]>),
+
+"Get" = Get([Id; 2]),
+
+"Concat" = Concat([Id; 2]),
+
+"VecAdd" = VecAdd([Id; 2]),
+"VecMinus" = VecMinus([Id; 2]),
+"VecMul" = VecMul([Id; 2]),
+"VecDiv" = VecDiv([Id; 2]),
+
+"VecNeg" = VecNeg([Id; 1]),
+"VecSqrt" = VecSqrt([Id; 1]),
+"VecSgn" = VecSgn([Id; 1]),
+
+"VecMAC" = VecMAC([Id; 3]),
+"default" = Default([Id; 1]),

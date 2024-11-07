@@ -1,0 +1,1 @@
+{"cost": 4.4857839629439695, "time_limit": 900, "runtime": 899.7286970615387, "solver": "cbc", "acyclic": true, "input_file": "./dataset/tensat/resnet50.json", "status": "Optimal"}

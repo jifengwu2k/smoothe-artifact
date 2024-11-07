@@ -1,0 +1,1 @@
+{"cost": 22.0, "time_limit": 36000, "runtime": 17.27473735809326, "solver": "cplex", "acyclic": true, "input_file": "./dataset/set/mushroom.json", "status": "Optimal"}

@@ -1,0 +1,1 @@
+{"cost": 6.0, "time_limit": 900, "runtime": 10.530495166778564, "solver": "cplex", "acyclic": true, "input_file": "./dataset/set/chess.json", "status": "Optimal"}

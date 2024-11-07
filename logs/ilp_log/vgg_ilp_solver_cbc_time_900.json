@@ -1,0 +1,1 @@
+{"cost": 8.26246407121107, "time_limit": 900, "runtime": 900.3452098369598, "solver": "cbc", "acyclic": true, "input_file": "./dataset/tensat/vgg.json", "status": "Optimal"}

@@ -1,0 +1,1 @@
+{"cost": -2600.0, "time_limit": 900, "runtime": 0.16850519180297852, "solver": "scip", "acyclic": true, "input_file": "./dataset/maxsat/s2v140c2600-1.json", "status": "OPTIMAL"}

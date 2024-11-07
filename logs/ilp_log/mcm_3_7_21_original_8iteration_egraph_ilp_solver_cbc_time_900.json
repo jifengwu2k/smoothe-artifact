@@ -1,0 +1,1 @@
+{"cost": 1050.0, "time_limit": 900, "runtime": 57.54880356788635, "solver": "cbc", "acyclic": true, "input_file": "./dataset/rover/mcm_3_7_21_original_8iteration_egraph.json", "status": "Optimal"}

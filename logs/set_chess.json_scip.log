@@ -1,0 +1,45 @@
+presolving:
+(round 1, fast)       3200 del vars, 78 del conss, 0 add conss, 78 chg bounds, 118251 chg sides, 118251 chg coeffs, 0 upgd conss, 0 impls, 118215 clqs
+(round 2, fast)       3277 del vars, 118367 del conss, 0 add conss, 78 chg bounds, 118251 chg sides, 118251 chg coeffs, 0 upgd conss, 0 impls, 118214 clqs
+(round 3, fast)       121527 del vars, 236617 del conss, 0 add conss, 78 chg bounds, 118251 chg sides, 118251 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 4, exhaustive) 121527 del vars, 236628 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 118251 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 5, fast)       121541 del vars, 236628 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 118251 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 6, exhaustive) 121541 del vars, 236628 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 118251 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 7, fast)       121612 del vars, 236628 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 118251 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 8, fast)       121626 del vars, 236628 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 118322 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 9, fast)       121626 del vars, 236628 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 118336 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 10, exhaustive) 124511 del vars, 236628 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 118336 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 11, fast)       124511 del vars, 236628 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 132468 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 12, exhaustive) 124511 del vars, 236631 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 132468 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 13, fast)       124512 del vars, 236631 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 132468 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 14, fast)       124513 del vars, 236631 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 132469 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 15, fast)       124513 del vars, 236631 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 132470 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 16, exhaustive) 124583 del vars, 236631 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 132470 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 17, fast)       124583 del vars, 236631 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 132845 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 18, exhaustive) 124588 del vars, 236631 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 132845 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+(round 19, fast)       124588 del vars, 236631 del conss, 0 add conss, 78 chg bounds, 118262 chg sides, 132878 chg coeffs, 27 upgd conss, 0 impls, 0 clqs
+   (1.0s) probing: 51/134 (38.1%) - 0 fixings, 0 aggregations, 0 implications, 0 bound changes
+   (1.0s) probing aborted: 50/50 successive totally useless probings
+   Deactivated symmetry handling methods, since SCIP was built without symmetry detector (SYM=none).
+   Deactivated symmetry handling methods, since SCIP was built without symmetry detector (SYM=none).
+presolving (20 rounds: 20 fast, 7 medium, 7 exhaustive):
+ 124588 deleted vars, 236631 deleted constraints, 0 added constraints, 78 tightened bounds, 0 added holes, 118262 changed sides, 132878 changed coefficients
+ 0 implications, 0 cliques
+presolved problem has 134 variables (134 bin, 0 int, 0 impl, 0 cont) and 24 constraints
+     24 constraints of type <logicor>
+transformed objective value is always integral (scale: 1)
+Presolving Time: 0.72
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+t 1.1s|     1 |     0 |     0 |     - | trivial|   0 | 134 |  24 |   0 |   0 |  0 |   0 |   0 | 2.000000e+00 | 1.350000e+02 |6650.00%| unknown
+p 1.1s|     1 |     0 |     0 |     - |   locks|   0 | 134 |  24 |  24 |   0 |  0 |   0 |   0 | 2.000000e+00 | 6.000000e+00 | 200.00%| unknown
+  1.1s|     1 |     0 |    31 |     - |   472M |   0 | 134 |  24 |  24 |   0 |  0 |   0 |   0 | 6.000000e+00 | 6.000000e+00 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 1.06
+Solving Nodes      : 1
+Primal Bound       : +6.00000000000000e+00 (2 solutions)
+Dual Bound         : +6.00000000000000e+00
+Gap                : 0.00 %
+Root classes: ['3271']
+Status: OPTIMAL

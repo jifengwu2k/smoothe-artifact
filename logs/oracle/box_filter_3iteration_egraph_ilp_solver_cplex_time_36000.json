@@ -1,0 +1,1 @@
+{"cost": 1701.0, "time_limit": 36000, "runtime": 53.76388955116272, "solver": "cplex", "acyclic": true, "input_file": "./dataset/rover/box_filter_3iteration_egraph.json", "status": "Optimal"}

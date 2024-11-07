@@ -1,0 +1,1 @@
+{"cost": 3.6140000000000034, "time_limit": 900, "runtime": 0.5680804252624512, "solver": "scip", "acyclic": true, "input_file": "./dataset/diospyros/vector_pairwise_mac_root_23.dot", "status": "OPTIMAL"}

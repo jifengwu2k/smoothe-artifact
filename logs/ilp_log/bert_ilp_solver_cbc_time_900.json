@@ -1,0 +1,1 @@
+{"cost": 4.138541974289183, "time_limit": 900, "runtime": 897.8321847915649, "solver": "cbc", "acyclic": true, "input_file": "./dataset/tensat/bert.json", "status": "Optimal"}

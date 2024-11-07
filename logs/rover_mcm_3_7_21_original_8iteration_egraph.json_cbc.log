@@ -1,0 +1,55 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /work/zhang-x2/users/yc2632/miniconda3/envs/newpt2/lib/python3.9/site-packages/pulp/solverdir/cbc/linux/64/cbc /tmp/36bdb53a71564ab682bb9fa3edf89d18-pulp.mps sec 900 timeMode elapsed branch printingOptions all solution /tmp/36bdb53a71564ab682bb9fa3edf89d18-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 156544 COLUMNS
+At line 11503865 RHS
+At line 11660405 BOUNDS
+At line 11678981 ENDATA
+Problem MODEL has 156539 rows, 18575 columns and 11302107 elements
+Coin0008I MODEL read with 0 errors
+seconds was changed from 1e+100 to 900
+Option for timeMode changed from cpu to elapsed
+Continuous objective value is 380 - 3.12 seconds
+Cgl0003I 0 fixed, 0 tightened bounds, 6946 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 2 strengthened rows, 0 substitutions
+Cgl0004I processed model has 54363 rows, 16574 columns (14400 integer (14400 of which binary)) and 7158382 elements
+Cbc0038I Initial state - 6 integers unsatisfied sum - 2.00021
+Cbc0038I Pass   1: (18.51 seconds) suminf.    0.00000 (0) obj. 8194 iterations 349
+Cbc0038I Solution found of 8194
+Cbc0038I Relaxing continuous gives 8194
+Cbc0038I Before mini branch and bound, 14393 integers at bound fixed and 2170 continuous
+Cbc0038I Full problem 54363 rows 16574 columns, reduced to 9 rows 7 columns
+Cbc0038I Mini branch and bound improved solution from 8194 to 1050 (20.16 seconds)
+Cbc0038I After 20.56 seconds - Feasibility pump exiting with objective of 1050 - took 2.00 seconds
+Cbc0012I Integer solution of 1050 found by feasibility pump after 0 iterations and 0 nodes (20.63 seconds)
+Cbc0001I Search completed - best objective 1050, took 0 iterations and 0 nodes (21.01 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 1050 to 1050
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                1050.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             19.44
+Time (Wallclock seconds):       23.17
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       21.35   (Wallclock seconds):       25.27
+
+Root classes: ['12']
+Status: Optimal
+Solved x values:
+['0.394', '2268.0', '2516.0', '13478.0', '40948.0', '24558.0', '611.0', '17246.0', '1240.0', '17110.0', '31728.0', '17485.0', '76.0', '200.0', '70.0', '64.0', '188.0', '17310.0', '22.0', '2535.0', '10.0', '7.0', '4.0', '1.0', '40955.0', '17253.0', '615.0', '17114.0', '40931.0', '600.0', '49858.0', '49855.0', '17314.0', '44.0', '17302.0', '35.0', '23.0', '2539.0', '17.0', '11.41', '2279.0', '8.176', '2527.0', '5.0', '2.0', '17118.0', '604.0', '5261.0', '1732.80', '17106.0', '17481.0', '17345.0', '72.0', '41029.0', '2083.0', '17306.0', '41377.0', '12.0', '2531.0', '9.0', '6.300', '17902.0', '3.0', '48901.0']

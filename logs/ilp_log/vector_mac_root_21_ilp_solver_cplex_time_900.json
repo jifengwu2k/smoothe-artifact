@@ -1,0 +1,1 @@
+{"cost": 1.3120000000000003, "time_limit": 900, "runtime": 0.7620449066162109, "solver": "cplex", "acyclic": true, "input_file": "./dataset/diospyros/vector_mac_root_21.dot", "status": "Optimal"}

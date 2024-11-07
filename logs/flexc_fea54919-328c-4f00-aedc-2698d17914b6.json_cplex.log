@@ -1,0 +1,92 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 22.1.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2022.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Problem '/tmp/94d6c3f5fb284d9e929c6e306d4a6660-pulp.lp' read.
+Read time = 0.14 sec. (19.89 ticks)
+CPLEX> New value for time limit in seconds: 900
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_TimeLimit                               900
+Tried aggregator 8 times.
+MIP Presolve eliminated 27129 rows and 5992 columns.
+MIP Presolve modified 62761 coefficients.
+Aggregator did 2416 substitutions.
+Reduced MIP has 41674 rows, 16313 columns, and 229049 nonzeros.
+Reduced MIP has 11771 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.48 sec. (759.51 ticks)
+Probing time = 0.10 sec. (6.05 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 23 rows and 0 columns.
+MIP Presolve modified 1099 coefficients.
+Reduced MIP has 41651 rows, 16313 columns, and 228980 nonzeros.
+Reduced MIP has 11771 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.53 sec. (1011.24 ticks)
+Probing fixed 345 vars, tightened 0 bounds.
+Probing time = 0.08 sec. (9.64 ticks)
+Clique table members: 20530.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 0.12 sec. (99.44 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           88.0000       31.0000            64.77%
+      0     0       59.9070   183       88.0000       59.9070      268   31.92%
+      0     0       84.9840    38       88.0000      Cuts: 12      381    3.43%
+      0     0        cutoff             88.0000                    383    0.00%
+Elapsed time = 1.73 sec. (2390.69 ticks, tree = 0.01 MB, solutions = 1)
+
+Zero-half cuts applied:  5
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  5
+
+Root node processing (before b&c):
+  Real time             =    1.73 sec. (2392.13 ticks)
+Parallel b&c, 32 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    1.73 sec. (2392.13 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  8.8000000000e+01
+Solution time =    1.75 sec.  Iterations = 383  Nodes = 0
+Deterministic time = 2392.20 ticks  (1367.87 ticks/sec)
+
+CPLEX> MILP problem relaxed to LP with fixed integer variables using
+incumbent solution.
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_TimeLimit                               900
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 30 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+LP Presolve eliminated 71207 rows and 24710 columns.
+Aggregator did 12 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.04 sec. (69.30 ticks)
+
+Dual simplex solved model.
+
+
+Dual simplex - Optimal:  Objective =  8.8000000000e+01
+Solution time =    0.11 sec.  Iterations = 0 (0)
+Deterministic time = 126.40 ticks  (1162.75 ticks/sec)
+
+CPLEX> Solution written to file '/tmp/94d6c3f5fb284d9e929c6e306d4a6660-pulp.sol'.
+CPLEX> Root classes: ['2', '3', '106', '107', '155', '158', '164', '165', '174', '179', '180', '181', '182', '183', '184', '185', '186', '187', '188', '189', '190', '191', '192', '193', '194', '195', '196', '197', '198', '199', '200', '201', '202', '203', '204', '205', '206', '207', '208', '209', '210', '211', '212', '213', '214', '215', '216', '217', '218', '219', '220', '221', '222', '223', '224', '225', '226', '227', '228', '229', '230', '231', '232', '233', '234', '235', '236', '237', '238', '239', '240', '241', '242', '243', '244', '245', '246', '247', '248', '249', '250', '251', '252', '253', '254', '255', '256', '257', '258', '259', '260', '261', '262', '263', '264', '265', '266', '267', '268', '269', '270', '271', '272', '273', '274']
+Status: Optimal
+Solved x values:
+['0.0', '502.18', '248.0', '121.0', '242.0', '1754.0', '115.0', '236.0', '109.0', '230.0', '103.0', '224.0', '97.0', '218.0', '91.0', '339.23', '212.0', '85.0', '460.0', '206.0', '79.0', '200.0', '73.0', '194.0', '67.0', '188.0', '61.0', '182.0', '55.0', '49.0', '170.7', '43.0', '164.0', '37.0', '158.0', '31.0', '152.0', '25.0', '273.0', '146.0', '19.0', '267.0', '140.0', '13.0', '261.0', '134.0', '7.0', '509.16', '255.0', '128.0', '1.0', '249.0', '122.0', '497.0', '243.0', '116.0', '237.0', '110.0', '231.0', '225.0', '98.0', '219.0', '92.0', '213.0', '86.0', '207.0', '80.0', '201.0', '74.0', '1205.0', '195.0', '68.0', '189.0', '62.0', '183.0', '56.0', '177.7', '50.0', '298.23', '171.7', '44.0', '165.0', '38.0', '159.0', '32.0', '26.0', '274.0', '147.0', '20.0', '4556.0', '268.0', '14.0', '262.0', '135.0', '8.0', '256.0', '129.0', '2.0', '250.0', '123.0', '244.0', '117.0', '238.0', '111.0', '232.0', '105.0', '226.0', '99.0', '220.0', '93.0', '214.0', '87.0', '208.0', '81.0', '329.0', '202.0', '75.0', '196.0', '69.0', '190.0', '63.0', '184.0', '57.0', '51.0', '172.4', '45.0', '166.0', '39.0', '160.0', '33.0', '154.0', '27.0', '148.0', '21.0', '269.0', '15.0', '263.0', '136.0', '9.0', '257.0', '130.0', '3.0', '251.0', '124.0', '245.0', '118.0', '239.0', '112.0', '233.0', '106.0', '227.0', '100.0', '475.0', '221.0', '94.0', '215.0', '88.0', '209.0', '82.0', '203.0', '76.0', '197.0', '70.0', '445.0', '191.0', '64.0', '185.0', '58.0', '179.0', '52.0', '173.4', '46.0', '294.23', '40.0', '415.0', '34.0', '409.19', '155.0', '28.0', '149.0', '22.0', '270.0', '16.0', '264.0', '137.0', '10.0', '258.0', '131.0', '4.0', '252.0', '125.0', '246.0', '119.0', '240.0', '113.0', '234.0', '107.0', '228.0', '101.0', '222.0', '95.0', '216.0', '89.0', '210.0', '83.0', '204.0', '77.0', '198.0', '71.0', '192.0', '65.0', '186.0', '59.0', '180.0', '53.0', '174.0', '47.0', '168.18', '41.0', '35.0', '29.0', '23.0', '271.0', '144.0', '17.0', '265.0', '11.0', '259.0', '132.0', '5.0', '253.0', '126.0', '247.0', '120.0', '495.18', '241.0', '114.0', '362.15', '362.104', '235.0', '108.0', '229.0', '102.0', '223.0', '96.0', '217.0', '90.0', '211.0', '84.0', '205.0', '78.0', '199.0', '72.0', '193.0', '66.0', '187.0', '60.0', '181.0', '54.0', '175.4', '48.0', '296.23', '169.7', '42.0', '163.0', '36.0', '157.0', '30.0', '24.0', '272.0', '145.0', '18.0', '266.0', '139.0', '12.0', '260.0', '133.0', '6.0', '254.0', '127.0']

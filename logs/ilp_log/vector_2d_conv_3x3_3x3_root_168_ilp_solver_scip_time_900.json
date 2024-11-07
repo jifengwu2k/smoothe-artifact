@@ -1,0 +1,1 @@
+{"cost": 134.62, "time_limit": 900, "runtime": 921.2972202301025, "solver": "scip", "acyclic": true, "input_file": "./dataset/diospyros/vector_2d_conv_3x3_3x3_root_168.dot", "status": "FEASIBLE"}

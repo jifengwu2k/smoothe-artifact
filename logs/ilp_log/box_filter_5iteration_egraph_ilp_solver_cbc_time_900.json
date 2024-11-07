@@ -1,0 +1,1 @@
+{"cost": 1819.0, "time_limit": 900, "runtime": 474.9713206291199, "solver": "cbc", "acyclic": true, "input_file": "./dataset/rover/box_filter_5iteration_egraph.json", "status": "Optimal"}
